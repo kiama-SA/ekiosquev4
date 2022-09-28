@@ -1,0 +1,46 @@
+header {
+    border-bottom: .5px solid rgb(212, 209, 209);
+    border-top: .5px solid rgb(165, 164, 164);
+    height: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-around;
+    font-weight:300;
+    font-size: 12px;
+    background-color:white;
+}
+
+
+
+#logo img{
+    width: 150px;
+}
+
+#icones {
+    display: flex;
+}
+#icones div{
+   margin-right: 5px;
+   width: 75px;
+}
+.active{
+    border-bottom: 2px solid black;
+    font-weight: bold;
+}
+#contact {
+    text-align: center;
+    font-weight: bold;
+    font-size:16px;
+    color:#0465d8;
+}
+#contact span{
+    color: #94c11e;
+}
+
+#search .bg-green{
+    background-color: #94c11e;
+}
+#search .border-green{
+    border-color: #94c11e;
+}
