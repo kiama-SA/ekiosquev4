@@ -1,0 +1,22 @@
+Bonsoir Monsieur
+
+Etat d'avance,en des travaux
+
+Conformément aux recommandations de la dernière réunion technique, j'ai cmmencé l'implementation des ameliorations validées concernant l'axe des utilisateurs lambda.
+
+A ce stade la barre de navigation est implementée à 50%.
+J'ai pris l'intiative de creer un compte sur la plateforme github avec ls acces de 'addresse suportkiama.cm afin de faciliter le travail collaboratif.
+
+Vous pouvez avoir un apercu du travaildeja fait via ce lien: https://htmlpreview.github.io/?https://github.com/kiama-SA/ekiosquev4/blob/master/navbar.html
+
+Spécifcations Techniques à imlementer
+L'onglet Acueil, renvoie à la  page d'accueil actuelle
+L'onglet réseau Kiosk renvoie les differents editeurs avec la mention ajouter aux favoris
+L'onglet bibliothèque renvoie à la bibliothèque atuelle
+L'onglet Nos offres renvoie à la page des offres actuelle
+L'onglet Notifications présentes les journaux qui ont été pubiés depuis la derniere connexion de l'utilisateur
+L'onglet Mon compte renvoie sur la page mon compte actuelle
+
+Taches en cours:
+Rendre la barre de navigation responsive.
+Dynamiser la barre de navigation au niveau des onglets réseau Kiosk et Notifications

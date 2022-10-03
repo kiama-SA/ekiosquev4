@@ -31,12 +31,16 @@
     <link rel="stylesheet" type="text/css" href="css/styleHeader.css">
 
 
+    <!-- iconify script cdn -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+
+
 </head>
 
 <body>
 
-
-    <header class="container-fluid">
+    <!--large screen header -->
+    <header class="container-fluid" id="header-lg">
         <div id="logo" class="d-flex align-items-center">
             <img src="img/ekiosque-presse-numerique-cameroun-afrique.png"
                 alt="ekiosque-presse-numerique-cameroun-afrique">
@@ -48,173 +52,215 @@
             </div>
         </div>
         <div id="icones">
-            <div class="d-flex flex-column justify-content-center active">
+            <a href="#" class="d-flex flex-column justify-content-center active menu-item">
                 <div class="d-flex align-items-end justify-content-center">
-                    <svg width="22" height="22" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M35.9559 19.093L19.8309 1.17638C19.1518 0.420293 17.8475 0.420293 17.1684 1.17638L1.04344 19.093C0.811338 19.3503 0.65899 19.6695 0.604916 20.0117C0.550843 20.354 0.597375 20.7046 0.738854 21.0209C1.02552 21.6677 1.66694 22.0833 2.37465 22.0833H5.95798V34.625C5.95798 35.1002 6.14674 35.5559 6.48275 35.8919C6.81875 36.2279 7.27447 36.4167 7.74965 36.4167H13.1246C13.5998 36.4167 14.0555 36.2279 14.3915 35.8919C14.7275 35.5559 14.9163 35.1002 14.9163 34.625V27.4583H22.083V34.625C22.083 35.1002 22.2717 35.5559 22.6077 35.8919C22.9437 36.2279 23.3995 36.4167 23.8746 36.4167H29.2496C29.7248 36.4167 30.1805 36.2279 30.5165 35.8919C30.8526 35.5559 31.0413 35.1002 31.0413 34.625V22.0833H34.6246C34.9716 22.0848 35.3116 21.9853 35.603 21.7969C35.8944 21.6086 36.1247 21.3395 36.2658 21.0225C36.4069 20.7055 36.4527 20.3543 36.3977 20.0117C36.3427 19.6691 36.1892 19.3499 35.9559 19.093Z"
-                            fill="black" />
-                    </svg>
+                    <iconify-icon icon="bxs:home"></iconify-icon>
                 </div>
-                <div class="d-flex align-items-end justify-content-center">
-                    Accueil
+                <div class="d-flex align-items-end justify-content-center mt-1">
+                    <span class="menu-text">Accueil</span>
                 </div>
 
-            </div>
-            <div class="d-flex flex-column justify-content-center">
+            </a>
+            <a href="#" class="d-flex flex-column justify-content-center menu-item">
                 <div class="d-flex align-items-end justify-content-center">
-                    <svg width="24" height="24" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_69_820)">
-                            <path
-                                d="M12.9 30.4583C17.0589 30.4583 20.425 26.2507 20.425 21.0521C20.425 15.8535 17.0589 11.6458 12.9 11.6458C8.74109 11.6458 5.375 15.8535 5.375 21.0521C5.375 26.2507 8.74109 30.4583 12.9 30.4583ZM18.06 33.1458H17.5023C16.1048 33.9857 14.5528 34.4896 12.9 34.4896C11.2472 34.4896 9.70188 33.9857 8.29766 33.1458H7.74C3.46688 33.1458 0 37.4794 0 42.8208V45.2396C0 47.4652 1.44453 49.2708 3.225 49.2708H22.575C24.3555 49.2708 25.8 47.4652 25.8 45.2396V42.8208C25.8 37.4794 22.3331 33.1458 18.06 33.1458ZM32.25 30.4583C35.8109 30.4583 38.7 26.847 38.7 22.3958C38.7 17.9447 35.8109 14.3333 32.25 14.3333C28.6891 14.3333 25.8 17.9447 25.8 22.3958C25.8 26.847 28.6891 30.4583 32.25 30.4583ZM35.475 33.1458H35.2197C34.2858 33.549 33.2981 33.8177 32.25 33.8177C31.2019 33.8177 30.2142 33.549 29.2803 33.1458H29.025C27.6544 33.1458 26.3913 33.6414 25.2827 34.4392C26.922 36.648 27.95 39.579 27.95 42.8208V46.0458C27.95 46.2306 27.9164 46.407 27.9097 46.5833H39.775C41.5555 46.5833 43 44.7777 43 42.5521C43 37.3535 39.6339 33.1458 35.475 33.1458Z"
-                                fill="#666666" />
-                        </g>
-                        <defs>
-                            <clipPath id="clip0_69_820">
-                                <rect width="43" height="43" fill="white" />
-                            </clipPath>
-                        </defs>
-                    </svg>
+                    <iconify-icon icon="fa-solid:user-friends"></iconify-icon>
+
                 </div>
-                <div class="d-flex align-items-end justify-content-center">
+                <div class="d-flex align-items-end justify-content-center mt-1">
                     reseau kiosk
                 </div>
-            </div>
-            <div class="d-flex flex-column justify-content-center">
+            </a>
+            <a href="#" class="d-flex flex-column justify-content-center menu-item ">
                 <div class="d-flex align-items-end justify-content-center">
-                    <svg width="24" height="24" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M7.5248 4.29999C5.7403 4.29999 4.2998 5.74049 4.2998 7.52069V35.4298C4.2998 37.21 5.74245 38.6505 7.5248 38.6505H9.6748C11.4529 38.6505 12.8977 37.21 12.8977 35.4298V7.52069C12.8977 5.74049 11.4529 4.29999 9.67265 4.29999H7.52265H7.5248ZM18.2705 4.29999C16.4903 4.29999 15.0455 5.74049 15.0455 7.52069V35.4298C15.0455 37.21 16.4903 38.6505 18.2705 38.6505H20.4205C22.2007 38.6505 23.6434 37.21 23.6434 35.4298V7.52069C23.6434 5.74264 22.2007 4.29999 20.4184 4.29999H18.2684H18.2705ZM33.7935 13.2375C33.6953 12.8119 33.5116 12.4107 33.2537 12.0582C32.9957 11.7057 32.6688 11.4093 32.2929 11.187C31.9169 10.9646 31.4997 10.8209 31.0665 10.7647C30.6334 10.7084 30.1933 10.7407 29.773 10.8596L28.1713 11.3111C27.3887 11.5324 26.7188 12.0415 26.2961 12.7362C25.8734 13.4309 25.7291 14.2598 25.8923 15.0564L30.1987 36.1243C30.2867 36.5513 30.4603 36.9561 30.7092 37.3141C30.958 37.6721 31.2768 37.9759 31.6464 38.2072C32.0159 38.4385 32.4286 38.5925 32.8593 38.6598C33.2901 38.7272 33.73 38.7064 34.1526 38.5989L36.2703 38.0614C37.9688 37.6314 39.0094 35.9243 38.6181 34.2194L33.7935 13.2354V13.2375Z"
-                            fill="#666666" />
-                    </svg>
+                    <iconify-icon icon="fluent:library-20-filled"></iconify-icon>
                 </div>
-                <div class="d-flex align-items-end justify-content-center ">
+                <div class="d-flex align-items-end justify-content-center mt-1">
                     bibliothèque
                 </div>
 
-            </div>
-            <div class="d-flex flex-column justify-content-center ">
+            </a>
+            <a href="#" class="d-flex flex-column justify-content-center menu-item">
                 <div class="d-flex align-items-end justify-content-center">
-                    <svg width="24" height="24" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M20.4252 23.65V38.7H13.9752C12.6106 38.7002 11.2969 38.1813 10.3007 37.2487C9.30458 36.316 8.70047 35.0393 8.61095 33.6776L8.6002 33.325V23.65H20.4252ZM34.4002 23.65V33.325C34.4004 34.6896 33.8815 36.0033 32.9489 36.9994C32.0162 37.9956 30.7395 38.5997 29.3778 38.6893L29.0252 38.7H22.5752V23.65H34.4002ZM25.8002 4.3C26.7988 4.2997 27.7777 4.57757 28.6272 5.10246C29.4766 5.62736 30.1631 6.37851 30.6096 7.2717C31.0561 8.16489 31.2449 9.1648 31.1549 10.1593C31.065 11.1538 30.6997 12.1036 30.1002 12.9021L34.4002 12.9C34.9704 12.9 35.5173 13.1265 35.9205 13.5297C36.3237 13.9329 36.5502 14.4798 36.5502 15.05V19.35C36.5502 19.9202 36.3237 20.4671 35.9205 20.8703C35.5173 21.2735 34.9704 21.5 34.4002 21.5H22.5752V12.9H20.4252V21.5H8.6002C8.02998 21.5 7.48312 21.2735 7.07992 20.8703C6.67671 20.4671 6.4502 19.9202 6.4502 19.35V15.05C6.4502 14.4798 6.67671 13.9329 7.07992 13.5297C7.48312 13.1265 8.02998 12.9 8.6002 12.9L12.9002 12.9021C12.4767 12.3375 12.1685 11.6949 11.9934 11.0111C11.8182 10.3273 11.7794 9.61577 11.8792 8.91701C11.979 8.21825 12.2155 7.54599 12.5751 6.93862C12.9348 6.33125 13.4105 5.80066 13.9752 5.37715C14.5399 4.95363 15.1825 4.64549 15.8662 4.47031C16.55 4.29513 17.2616 4.25634 17.9603 4.35617C18.6591 4.45599 19.3314 4.69247 19.9387 5.0521C20.5461 5.41172 21.0767 5.88746 21.5002 6.45215C21.9995 5.78295 22.6483 5.23982 23.395 4.86613C24.1416 4.49244 24.9653 4.29857 25.8002 4.3ZM25.8002 6.45C24.9449 6.45 24.1246 6.78977 23.5198 7.39458C22.915 7.99938 22.5752 8.81967 22.5752 9.675V12.9H25.8002C26.6555 12.9 27.4758 12.5602 28.0806 11.9554C28.6854 11.3506 29.0252 10.5303 29.0252 9.675C29.0252 8.81967 28.6854 7.99938 28.0806 7.39458C27.4758 6.78977 26.6555 6.45 25.8002 6.45ZM17.2002 6.45C16.372 6.45041 15.5757 6.76943 14.9763 7.34098C14.3769 7.91252 14.0203 8.69275 13.9805 9.52001C13.9407 10.3473 14.2207 11.1581 14.7625 11.7846C15.3042 12.411 16.0662 12.805 16.8906 12.8849L17.2002 12.9H20.4252V9.675L20.4101 9.3654C20.3332 8.5674 19.9618 7.82668 19.3683 7.28768C18.7748 6.74867 18.0019 6.45003 17.2002 6.45Z"
-                            fill="#666666" />
-                    </svg>
 
+                    <iconify-icon icon="fluent:gift-20-filled"></iconify-icon>
                 </div>
-                <div class="d-flex align-items-end justify-content-center">
+                <div class="d-flex align-items-end justify-content-center mt-1">
                     Nos offres
                 </div>
 
-            </div>
-            <div class="d-flex flex-column justify-content-center">
+            </a>
+            <a href="#" class="d-flex flex-column justify-content-center menu-item">
                 <div class="d-flex align-items-end justify-content-center">
-                    <svg width="24" height="24" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M36.96 28.6647C36.8206 28.4967 36.6837 28.3288 36.5493 28.1667C34.7016 25.9319 33.5838 24.5831 33.5838 18.2565C33.5838 14.9811 32.8002 12.2936 31.2558 10.278C30.1169 8.78896 28.5775 7.65938 26.5484 6.82457C26.5223 6.81005 26.499 6.79099 26.4796 6.7683C25.7497 4.32436 23.7526 2.6875 21.5001 2.6875C19.2477 2.6875 17.2514 4.32436 16.5215 6.76578C16.5021 6.78764 16.4791 6.80609 16.4535 6.82037C11.7185 8.76965 9.41731 12.5095 9.41731 18.254C9.41731 24.5831 8.30115 25.9319 6.45182 28.1642C6.31744 28.3263 6.18055 28.4909 6.04113 28.6622C5.68101 29.0965 5.45284 29.6249 5.38363 30.1848C5.31442 30.7447 5.40707 31.3128 5.65061 31.8217C6.16879 32.9135 7.27319 33.5912 8.53379 33.5912H34.4757C35.7304 33.5912 36.8273 32.9143 37.3471 31.8276C37.5917 31.3185 37.6853 30.75 37.6166 30.1894C37.548 29.6289 37.3201 29.0997 36.96 28.6647ZM21.5001 40.3125C22.7137 40.3115 23.9045 39.9821 24.946 39.3591C25.9875 38.7362 26.841 37.843 27.416 36.7742C27.4431 36.723 27.4565 36.6657 27.4548 36.6077C27.4532 36.5498 27.4366 36.4933 27.4067 36.4437C27.3768 36.3941 27.3345 36.3531 27.2841 36.3246C27.2336 36.2961 27.1766 36.2812 27.1187 36.2812H15.8833C15.8253 36.281 15.7682 36.2959 15.7176 36.3243C15.667 36.3527 15.6246 36.3937 15.5946 36.4433C15.5646 36.493 15.548 36.5495 15.5463 36.6075C15.5446 36.6655 15.558 36.723 15.5851 36.7742C16.16 37.8429 17.0134 38.736 18.0548 39.3589C19.0961 39.9819 20.2867 40.3114 21.5001 40.3125Z"
-                            fill="#666666" />
-                    </svg>
-
-
+                    <iconify-icon icon="ion:notifications"></iconify-icon>
                 </div>
-                <div class="d-flex align-items-end justify-content-center">
-                    notification
+                <div class="d-flex align-items-end justify-content-center mt-1">
+                    notifications
                 </div>
 
-            </div>
-            <div class="d-flex flex-column justify-content-center">
+            </a>
+            <a href="#" class="d-flex flex-column justify-content-center menu-item">
                 <div class="d-flex align-items-end justify-content-center">
-                    <svg width="24" height="24" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M21.4997 37.625C30.4052 37.625 37.6247 30.4055 37.6247 21.5C37.6247 12.5945 30.4052 5.37501 21.4997 5.37501C12.5942 5.37501 5.37467 12.5945 5.37467 21.5C5.37467 30.4055 12.5942 37.625 21.4997 37.625ZM21.4997 39.4167C31.395 39.4167 39.4163 31.3954 39.4163 21.5C39.4163 11.6046 31.395 3.58334 21.4997 3.58334C11.6043 3.58334 3.58301 11.6046 3.58301 21.5C3.58301 31.3954 11.6043 39.4167 21.4997 39.4167Z"
-                            fill="#666666" />
-                        <path
-                            d="M10.75 31.9186C10.75 30.9932 11.4416 30.2111 12.3625 30.109C19.2739 29.3439 23.7575 29.4129 30.6536 30.126C30.998 30.1622 31.3244 30.2978 31.5929 30.5164C31.8614 30.735 32.0605 31.0271 32.1658 31.357C32.271 31.6868 32.278 32.0402 32.1857 32.374C32.0934 32.7077 31.906 33.0074 31.6462 33.2363C23.5076 40.3304 18.8564 40.2328 11.3233 33.2435C10.956 32.9031 10.75 32.4193 10.75 31.9194V31.9186Z"
-                            fill="#666666" />
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M30.5607 31.0165C23.7192 30.3087 19.3001 30.2425 12.4595 30.9994C12.2343 31.0257 12.0267 31.134 11.8765 31.3038C11.7262 31.4736 11.6439 31.6928 11.6452 31.9195C11.6452 32.1757 11.7518 32.4184 11.9319 32.5868C15.6657 36.0501 18.4947 37.6152 21.2602 37.625C24.0355 37.6349 27.0168 36.0824 31.057 32.5618C31.1854 32.4475 31.2778 32.2985 31.323 32.1327C31.3682 31.9669 31.3643 31.7916 31.3117 31.628C31.2591 31.4644 31.1602 31.3196 31.0268 31.2112C30.8935 31.1028 30.7316 31.0354 30.5607 31.0173V31.0165ZM12.2633 29.2185C19.2472 28.4454 23.7963 28.5153 30.7461 29.2346C31.2642 29.2887 31.7553 29.4927 32.1592 29.8215C32.5631 30.1504 32.8624 30.5899 33.0204 31.0862C33.1784 31.5826 33.1883 32.1142 33.0488 32.616C32.9093 33.1179 32.6265 33.5682 32.235 33.9118C28.1366 37.4844 24.7235 39.4301 21.2548 39.4167C17.7763 39.4041 14.5136 37.4252 10.7144 33.9001C10.4424 33.6468 10.2256 33.34 10.0774 32.9991C9.9293 32.6581 9.85308 32.2903 9.85352 31.9186C9.85221 31.2507 10.0974 30.6057 10.542 30.1074C10.9867 29.609 11.5996 29.2922 12.2633 29.2176V29.2185Z"
-                            fill="#666666" />
-                        <path
-                            d="M28.6663 17.9167C28.6663 19.8174 27.9113 21.6403 26.5673 22.9843C25.2233 24.3283 23.4004 25.0833 21.4997 25.0833C19.599 25.0833 17.7761 24.3283 16.4321 22.9843C15.0881 21.6403 14.333 19.8174 14.333 17.9167C14.333 16.0159 15.0881 14.1931 16.4321 12.8491C17.7761 11.5051 19.599 10.75 21.4997 10.75C23.4004 10.75 25.2233 11.5051 26.5673 12.8491C27.9113 14.1931 28.6663 16.0159 28.6663 17.9167Z"
-                            fill="#666666" />
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M21.4997 23.2917C22.9252 23.2917 24.2924 22.7254 25.3004 21.7174C26.3084 20.7094 26.8747 19.3422 26.8747 17.9167C26.8747 16.4911 26.3084 15.124 25.3004 14.116C24.2924 13.108 22.9252 12.5417 21.4997 12.5417C20.0741 12.5417 18.707 13.108 17.699 14.116C16.691 15.124 16.1247 16.4911 16.1247 17.9167C16.1247 19.3422 16.691 20.7094 17.699 21.7174C18.707 22.7254 20.0741 23.2917 21.4997 23.2917ZM21.4997 25.0833C23.4004 25.0833 25.2233 24.3283 26.5673 22.9843C27.9113 21.6403 28.6663 19.8174 28.6663 17.9167C28.6663 16.0159 27.9113 14.1931 26.5673 12.8491C25.2233 11.5051 23.4004 10.75 21.4997 10.75C19.599 10.75 17.7761 11.5051 16.4321 12.8491C15.0881 14.1931 14.333 16.0159 14.333 17.9167C14.333 19.8174 15.0881 21.6403 16.4321 22.9843C17.7761 24.3283 19.599 25.0833 21.4997 25.0833Z"
-                            fill="#666666" />
-                    </svg>
-
-
+                    <iconify-icon icon="healthicons:ui-user-profile"></iconify-icon>
                 </div>
 
-                <div class="d-flex align-items-end justify-content-center">
+                <div class="d-flex align-items-end justify-content-center mt-1">
                     Mon Compte
                 </div>
 
-            </div>
+            </a>
         </div>
         <div id="search">
-            <!-- <form class="search-bar w-search notification-list friend-requests">
-                <div class="form-group with-button">
-                    <input class="form-control js-user-search" placeholder="Search here people or pages..." type="text">
-                    <button>
-                        <svg class="olymp-magnifying-glass-icon"><use xlink:href="svg-icons/sprites/icons.svg#olymp-magnifying-glass-icon"></use></svg>
-                    </button>
-                </div>
-            </form> -->
+
             <form class="form-group with-button ">
-                <input class="form-control border-green " type="search" placeholder="Rechercher un editeur"
+                <input class="form-control border-green" type="search" placeholder="Rechercher un editeur"
                     aria-label="Search">
-                <button class="btn btn-outline-success px-2 bg-green" type="submit"><svg
-                        class="olymp-magnifying-glass-icon">
-                        <use xlink:href="svg-icons/sprites/icons.svg#olymp-magnifying-glass-icon"></use>
-                    </svg></button>
+                <button class="btn btn-outline-success px-2 bg-green" type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
             </form>
+        </div>
+    </header>
+
+
+    <!--medium screen header -->
+    <header class="container-fluid" id="header-md">
+
+        <div id="contact" class="d-flex align-items-center">
+            <div>
+                Contactez nous au <br>
+                <span>697 81 25 15 (Whatsapp)</span>
+            </div>
+        </div>
+        <div id="icones">
+            <a href="#" class="d-flex flex-column justify-content-center active menu-item">
+                <div class="d-flex align-items-end justify-content-center">
+                    <iconify-icon icon="bxs:home"></iconify-icon>
+                </div>
+                <div class="d-flex align-items-end justify-content-center mt-1">
+                    <span class="menu-text">Accueil</span>
+                </div>
+
+            </a>
+            <a href="#" class="d-flex flex-column justify-content-center menu-item">
+                <div class="d-flex align-items-end justify-content-center">
+                    <iconify-icon icon="fa-solid:user-friends"></iconify-icon>
+
+                </div>
+                <div class="d-flex align-items-end justify-content-center mt-1">
+                    reseau kiosk
+                </div>
+            </a>
+            <a href="#" class="d-flex flex-column justify-content-center menu-item ">
+                <div class="d-flex align-items-end justify-content-center">
+                    <iconify-icon icon="fluent:library-20-filled"></iconify-icon>
+                </div>
+                <div class="d-flex align-items-end justify-content-center mt-1">
+                    bibliothèque
+                </div>
+
+            </a>
+            <a href="#" class="d-flex flex-column justify-content-center menu-item">
+                <div class="d-flex align-items-end justify-content-center">
+
+                    <iconify-icon icon="fluent:gift-20-filled"></iconify-icon>
+                </div>
+                <div class="d-flex align-items-end justify-content-center mt-1">
+                    Nos offres
+                </div>
+
+            </a>
+            <a href="#" class="d-flex flex-column justify-content-center menu-item">
+                <div class="d-flex align-items-end justify-content-center">
+                    <iconify-icon icon="ion:notifications"></iconify-icon>
+                </div>
+                <div class="d-flex align-items-end justify-content-center mt-1">
+                    notifications
+                </div>
+
+            </a>
+            <a href="#" class="d-flex flex-column justify-content-center menu-item">
+                <div class="d-flex align-items-end justify-content-center">
+                    <iconify-icon icon="healthicons:ui-user-profile"></iconify-icon>
+                </div>
+
+                <div class="d-flex align-items-end justify-content-center mt-1">
+                    Mon Compte
+                </div>
+
+            </a>
+        </div>
+    </header>
+
+    <!--small screen header -->
+    <header class="container-fluid" id="header-sm">
+
+
+        <div id="icones">
+            <a href="#" class="d-flex flex-column justify-content-center active menu-item">
+                <div class="d-flex align-items-end justify-content-center">
+                    <iconify-icon icon="bxs:home"></iconify-icon>
+                </div>
+                <div class="d-flex align-items-end justify-content-center mt-1">
+                    <span class="menu-text">Accueil</span>
+                </div>
+
+            </a>
+            <a href="#" class="d-flex flex-column justify-content-center menu-item">
+                <div class="d-flex align-items-end justify-content-center">
+                    <iconify-icon icon="fa-solid:user-friends"></iconify-icon>
+
+                </div>
+                <div class="d-flex align-items-end justify-content-center mt-1">
+                    reseau kiosk
+                </div>
+            </a>
+            <a href="#" class="d-flex flex-column justify-content-center menu-item ">
+                <div class="d-flex align-items-end justify-content-center">
+                    <iconify-icon icon="fluent:library-20-filled"></iconify-icon>
+                </div>
+                <div class="d-flex align-items-end justify-content-center mt-1">
+                    bibliothèque
+                </div>
+
+            </a>
+            <a href="#" class="d-flex flex-column justify-content-center menu-item">
+                <div class="d-flex align-items-end justify-content-center">
+
+                    <iconify-icon icon="fluent:gift-20-filled"></iconify-icon>
+                </div>
+                <div class="d-flex align-items-end justify-content-center mt-1">
+                    Nos offres
+                </div>
+
+            </a>
+            <a href="#" class="d-flex flex-column justify-content-center menu-item">
+                <div class="d-flex align-items-end justify-content-center">
+                    <iconify-icon icon="ion:notifications"></iconify-icon>
+                </div>
+                <div class="d-flex align-items-end justify-content-center mt-1">
+                    notifications
+                </div>
+
+            </a>
+            <a href="#" class="d-flex flex-column justify-content-center menu-item">
+                <div class="d-flex align-items-end justify-content-center">
+                    <iconify-icon icon="healthicons:ui-user-profile"></iconify-icon>
+                </div>
+
+                <div class="d-flex align-items-end justify-content-center mt-1">
+                    Mon Compte
+                </div>
+
+            </a>
         </div>
     </header>
 
 
 
     <!-- JS Scripts -->
-    <script src="js/jquery-3.2.1.js"></script>
-    <script src="js/jquery.appear.js"></script>
-    <script src="js/jquery.mousewheel.js"></script>
-    <script src="js/perfect-scrollbar.js"></script>
-    <script src="js/jquery.matchHeight.js"></script>
-    <script src="js/svgxuse.js"></script>
-    <script src="js/imagesloaded.pkgd.js"></script>
-    <script src="js/Headroom.js"></script>
-    <script src="js/velocity.js"></script>
-    <script src="js/ScrollMagic.js"></script>
-    <script src="js/jquery.waypoints.js"></script>
-    <script src="js/jquery.countTo.js"></script>
+    <script src="header.js"></script>
     <script src="js/popper.min.js"></script>
-    <script src="js/material.min.js"></script>
-    <script src="js/bootstrap-select.js"></script>
-    <script src="js/smooth-scroll.js"></script>
-    <script src="js/selectize.js"></script>
-    <script src="js/swiper.jquery.js"></script>
-    <script src="js/moment.js"></script>
-    <script src="js/daterangepicker.js"></script>
-    <script src="js/simplecalendar.js"></script>
-    <script src="js/fullcalendar.js"></script>
-    <script src="js/isotope.pkgd.js"></script>
-    <script src="js/ajax-pagination.js"></script>
-    <script src="js/Chart.js"></script>
-    <script src="js/chartjs-plugin-deferred.js"></script>
-    <script src="js/circle-progress.js"></script>
-    <script src="js/loader.js"></script>
-    <script src="js/run-chart.js"></script>
-    <script src="js/jquery.magnific-popup.js"></script>
-    <script src="js/jquery.gifplayer.js"></script>
-    <script src="js/mediaelement-and-player.js"></script>
-    <script src="js/mediaelement-playlist-plugin.min.js"></script>
-    <script src="js/sticky-sidebar.js"></script>
-
-    <script src="js/base-init.js"></script>
-    <script defer src="fonts/fontawesome-all.js"></script>
-
     <script src="Bootstrap/dist/js/bootstrap.bundle.js"></script>
-
-
 </body>
 
 </html>
