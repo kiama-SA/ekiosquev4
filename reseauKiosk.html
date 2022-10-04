@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Reseau kiosk</title>
+
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+    <!-- Main Font -->
+    <script src="js/webfontloader.min.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ["Roboto:300,400,500,700:latin"],
+            },
+        });
+    </script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="Bootstrap/dist/css/bootstrap-reboot.css" />
+    <link rel="stylesheet" type="text/css" href="Bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="Bootstrap/dist/css/bootstrap-grid.css" />
+
+    <!-- Main Styles CSS -->
+    <link rel="stylesheet" type="text/css" href="css/main.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/fonts.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleHeader.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleNotification.css" />
+
+    <!-- iconify script cdn -->
+    <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+</head>
+
+<body>
+    <!--large screen header -->
+    <header class="container-fluid" id="header-lg">
+        <div id="logo" class="d-flex align-items-center">
+            <img src="img/ekiosque-presse-numerique-cameroun-afrique.png"
+                alt="ekiosque-presse-numerique-cameroun-afrique" />
+        </div>
+        <div id="contact" class="d-flex align-items-center">
+            <div>
+                Contactez nous au <br />
+                <span>697 81 25 15 (Whatsapp)</span>
+            </div>
+        </div>
+        <div id="icones">
+            <a href="navbar.html" class="d-flex flex-column justify-content-center menu-item">
+                <div class="d-flex align-items-end justify-content-center">
+                    <iconify-icon icon="bxs:home"></iconify-icon>
+                </div>
+                <div class="d-flex align-items-end justify-content-center mt-1">
+                    <span class="menu-text">Accueil</span>
+                </div>
+            </a>
+            <a href="#" class="d-flex flex-column justify-content-center active menu-item">
+                <div class="d-flex align-items-end justify-content-center">
+                    <iconify-icon icon="fa-solid:user-friends"></iconify-icon>
+                </div>
+                <div class="d-flex align-items-end justify-content-center mt-1">
+                    reseau kiosk
+                </div>
+            </a>
+            <a href="#" class="d-flex flex-column justify-content-center menu-item">
+                <div class="d-flex align-items-end justify-content-center">
+                    <iconify-icon icon="fluent:library-20-filled"></iconify-icon>
+                </div>
+                <div class="d-flex align-items-end justify-content-center mt-1">
+                    bibliothèque
+                </div>
+            </a>
+            <a href="#" class="d-flex flex-column justify-content-center menu-item">
+                <div class="d-flex align-items-end justify-content-center">
+                    <iconify-icon icon="fluent:gift-20-filled"></iconify-icon>
+                </div>
+                <div class="d-flex align-items-end justify-content-center mt-1">
+                    Nos offres
+                </div>
+            </a>
+            <a href="#" class="d-flex flex-column justify-content-center menu-item">
+                <div class="d-flex align-items-end justify-content-center">
+                    <iconify-icon icon="ion:notifications"></iconify-icon>
+                </div>
+                <div class="d-flex align-items-end justify-content-center mt-1">
+                    notifications
+                </div>
+            </a>
+            <a href="#" class="d-flex flex-column justify-content-center menu-item">
+                <div class="d-flex align-items-end justify-content-center">
+                    <iconify-icon icon="healthicons:ui-user-profile"></iconify-icon>
+                </div>
+
+                <div class="d-flex align-items-end justify-content-center mt-1">
+                    Mon Compte
+                </div>
+            </a>
+        </div>
+        <div id="search">
+            <form class="form-group with-button">
+                <input class="form-control border-green" type="search" placeholder="Rechercher un editeur"
+                    aria-label="Search" />
+                <button class="btn btn-outline-success px-2 bg-green" type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+        </div>
+    </header>
+
+    <!--medium screen header -->
+    <header class="container-fluid" id="header-md">
+        <div id="contact" class="d-flex align-items-center">
+            <div>
+                Contactez nous au <br />
+                <span>697 81 25 15 (Whatsapp)</span>
+            </div>
+        </div>
+        <div id="icones">
+            <a href="navbar.html" class="d-flex flex-column justify-content-center menu-item">
+                <div class="d-flex align-items-end justify-content-center">
+                    <iconify-icon icon="bxs:home"></iconify-icon>
+                </div>
+                <div class="d-flex align-items-end justify-content-center mt-1">
+                    <span class="menu-text">Accueil</span>
+                </div>
+            </a>
+            <a href="#" class="d-flex flex-column justify-content-center active menu-item">
+                <div class="d-flex align-items-end justify-content-center">
+                    <iconify-icon icon="fa-solid:user-friends"></iconify-icon>
+                </div>
+                <div class="d-flex align-items-end justify-content-center mt-1">
+                    reseau kiosk
+                </div>
+            </a>
+            <a href="#" class="d-flex flex-column justify-content-center menu-item">
+                <div class="d-flex align-items-end justify-content-center">
+                    <iconify-icon icon="fluent:library-20-filled"></iconify-icon>
+                </div>
+                <div class="d-flex align-items-end justify-content-center mt-1">
+                    bibliothèque
+                </div>
+            </a>
+            <a href="#" class="d-flex flex-column justify-content-center menu-item">
+                <div class="d-flex align-items-end justify-content-center">
+                    <iconify-icon icon="fluent:gift-20-filled"></iconify-icon>
+                </div>
+                <div class="d-flex align-items-end justify-content-center mt-1">
+                    Nos offres
+                </div>
+            </a>
+            <a href="#" class="d-flex flex-column justify-content-center menu-item">
+                <div class="d-flex align-items-end justify-content-center">
+                    <iconify-icon icon="ion:notifications"></iconify-icon>
+                </div>
+                <div class="d-flex align-items-end justify-content-center mt-1">
+                    notifications
+                </div>
+            </a>
+            <a href="#" class="d-flex flex-column justify-content-center menu-item">
+                <div class="d-flex align-items-end justify-content-center">
+                    <iconify-icon icon="healthicons:ui-user-profile"></iconify-icon>
+                </div>
+
+                <div class="d-flex align-items-end justify-content-center mt-1">
+                    Mon Compte
+                </div>
+            </a>
+        </div>
+    </header>
+
+    <!--small screen header -->
+    <header class="container-fluid" id="header-sm">
+        <div id="icones">
+            <a href="navbar.html" class="d-flex flex-column justify-content-center menu-item">
+                <div class="d-flex align-items-end justify-content-center">
+                    <iconify-icon icon="bxs:home"></iconify-icon>
+                </div>
+                <div class="d-flex align-items-end justify-content-center mt-1">
+                    <span class="menu-text">Accueil</span>
+                </div>
+            </a>
+            <a href="#" class="d-flex flex-column justify-content-center active menu-item">
+                <div class="d-flex align-items-end justify-content-center">
+                    <iconify-icon icon="fa-solid:user-friends"></iconify-icon>
+                </div>
+                <div class="d-flex align-items-end justify-content-center mt-1">
+                    reseau kiosk
+                </div>
+            </a>
+            <a href="#" class="d-flex flex-column justify-content-center menu-item">
+                <div class="d-flex align-items-end justify-content-center">
+                    <iconify-icon icon="fluent:library-20-filled"></iconify-icon>
+                </div>
+                <div class="d-flex align-items-end justify-content-center mt-1">
+                    bibliothèque
+                </div>
+            </a>
+            <a href="#" class="d-flex flex-column justify-content-center menu-item">
+                <div class="d-flex align-items-end justify-content-center">
+                    <iconify-icon icon="fluent:gift-20-filled"></iconify-icon>
+                </div>
+                <div class="d-flex align-items-end justify-content-center mt-1">
+                    Nos offres
+                </div>
+            </a>
+            <a href="#" class="d-flex flex-column justify-content-center menu-item">
+                <div class="d-flex align-items-end justify-content-center">
+                    <iconify-icon icon="ion:notifications"></iconify-icon>
+                </div>
+                <div class="d-flex align-items-end justify-content-center mt-1">
+                    notifications
+                </div>
+            </a>
+            <a href="#" class="d-flex flex-column justify-content-center menu-item">
+                <div class="d-flex align-items-end justify-content-center">
+                    <iconify-icon icon="healthicons:ui-user-profile"></iconify-icon>
+                </div>
+
+                <div class="d-flex align-items-end justify-content-center mt-1">
+                    Mon Compte
+                </div>
+            </a>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 my-4">
+                <div class="ui-block">
+                    <div class="ui-block-title">
+                        <h6 class="title">Je construis mon réseau Kiosk</h6>
+                        <a href="#" class="more">Tout voir</a>
+                    </div>
+
+                    <!-- W-Friend-Pages-Added -->
+
+                    <ul class="widget w-friend-pages-added notification-list friend-requests">
+                        <li class="inline-items">
+                            <div class="author-thumb">
+                                <img src="img/avatar41-sm.jpg" alt="author" />
+                            </div>
+                            <div class="notification-event">
+                                <a href="#" class="h6 notification-friend">The Marina Bar</a>
+                                <span class="chat-message-item">Restaurant / Bar</span>
+                            </div>
+                            <span class="notification-icon" data-toggle="tooltip" data-placement="top"
+                                data-original-title="ADD TO YOUR FAVS">
+                                <a href="#">
+                                    <button type="button" class="btn-favoris">
+                                        Ajouter aux favoris
+                                    </button>
+                                </a>
+                            </span>
+                        </li>
+
+                        <li class="inline-items">
+                            <div class="author-thumb">
+                                <img src="img/avatar42-sm.jpg" alt="author" />
+                            </div>
+                            <div class="notification-event">
+                                <a href="#" class="h6 notification-friend">Tapronus Rock</a>
+                                <span class="chat-message-item">Rock Band</span>
+                            </div>
+                            <span class="notification-icon" data-toggle="tooltip" data-placement="top"
+                                data-original-title="ADD TO YOUR FAVS">
+                                <a href="#">
+                                    <button type="button" class="btn-favoris">
+                                        Ajouter aux favoris
+                                    </button>
+                                </a>
+                            </span>
+                        </li>
+
+                        <li class="inline-items">
+                            <div class="author-thumb">
+                                <img src="img/avatar43-sm.jpg" alt="author" />
+                            </div>
+                            <div class="notification-event">
+                                <a href="#" class="h6 notification-friend">Pixel Digital Design</a>
+                                <span class="chat-message-item">Company</span>
+                            </div>
+                            <span class="notification-icon" data-toggle="tooltip" data-placement="top"
+                                data-original-title="ADD TO YOUR FAVS">
+                                <a href="#">
+                                    <button type="button" class="btn-favoris">
+                                        Ajouter aux favoris
+                                    </button>
+                                </a>
+                            </span>
+                        </li>
+
+                        <li class="inline-items">
+                            <div class="author-thumb">
+                                <img src="img/avatar44-sm.jpg" alt="author" />
+                            </div>
+                            <div class="notification-event">
+                                <a href="#" class="h6 notification-friend">Thompson’s Custom Clothing Boutique</a>
+                                <span class="chat-message-item">Clothing Store</span>
+                            </div>
+                            <span class="notification-icon" data-toggle="tooltip" data-placement="top"
+                                data-original-title="ADD TO YOUR FAVS">
+                                <a href="#">
+                                    <button type="button" class="btn-favoris">
+                                        Ajouter aux favoris
+                                    </button>
+                                </a>
+                            </span>
+                        </li>
+
+                        <li class="inline-items">
+                            <div class="author-thumb">
+                                <img src="img/avatar45-sm.jpg" alt="author" />
+                            </div>
+                            <div class="notification-event">
+                                <a href="#" class="h6 notification-friend">Crimson Agency</a>
+                                <span class="chat-message-item">Company</span>
+                            </div>
+                            <span class="notification-icon" data-toggle="tooltip" data-placement="top"
+                                data-original-title="ADD TO YOUR FAVS">
+                                <a href="#">
+                                    <button type="button" class="btn-favoris">
+                                        Ajouter aux favoris
+                                    </button>
+                                </a>
+                            </span>
+                        </li>
+
+                        <li class="inline-items">
+                            <div class="author-thumb">
+                                <img src="img/avatar46-sm.jpg" alt="author" />
+                            </div>
+                            <div class="notification-event">
+                                <a href="#" class="h6 notification-friend">Mannequin Angel</a>
+                                <span class="chat-message-item">Clothing Store</span>
+                            </div>
+                            <span class="notification-icon" data-toggle="tooltip" data-placement="top"
+                                data-original-title="ADD TO YOUR FAVS">
+                                <a href="#">
+                                    <button type="button" class="btn-favoris">
+                                        Ajouter aux favoris
+                                    </button>
+                                </a>
+                            </span>
+                        </li>
+                    </ul>
+
+                    <!-- .. end W-Friend-Pages-Added -->
+                </div>
+            </div>
+            <div class="col-lg-3 my-4">
+                <div class="ui-block">
+                    <div class="ui-block-title">
+                        <h6 class="title">Your Fav Pages (54)</h6>
+                        <a href="#" class="more"><svg class="olymp-three-dots-icon">
+                                <use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use>
+                            </svg></a>
+                    </div>
+                    <div class="ui-block-content">
+                        <!-- W-Faved-Page -->
+
+                        <ul class="widget w-faved-page">
+                            <li>
+                                <a href="#">
+                                    <img src="img/avatar41-sm.jpg" alt="author" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/faved-page7.jpg" alt="user" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/avatar43-sm.jpg" alt="author" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/faved-page7.jpg" alt="user" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/avatar44-sm.jpg" alt="author" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/avatar42-sm.jpg" alt="author" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/faved-page7.jpg" alt="user" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/avatar45-sm.jpg" alt="author" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/avatar46-sm.jpg" alt="author" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/faved-page7.jpg" alt="user" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/faved-page1.jpg" alt="user" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/faved-page11.jpg" alt="user" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/faved-page7.jpg" alt="user" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="img/faved-page12.jpg" alt="user" />
+                                </a>
+                            </li>
+                            <li class="all-users">
+                                <a href="#">+40</a>
+                            </li>
+                        </ul>
+
+                        <!-- ... end W-Faved-Page -->
+                    </div>
+                </div>
+
+                <div class="ui-block">
+                    <!-- W-Create-Fav-Page -->
+
+                    <div class="widget w-create-fav-page">
+                        <div class="icons-block">
+                            <iconify-icon icon="fluent:gift-20-filled"></iconify-icon>
+
+                            <a href="#" class="more"><svg class="olymp-three-dots-icon">
+                                    <use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use>
+                                </svg></a>
+                        </div>
+
+                        <div class="content">
+                            <span>Soyez les premiers à</span>
+                            <h3 class="title">Découvrir nos offres spéciales</h3>
+                            <a href="#" class="btn btn-bg-secondary btn-sm">Voir les offres</a>
+                        </div>
+                    </div>
+
+                    <!-- ... end W-Create-Fav-Page -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS Scripts -->
+    <script src="header.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="Bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
