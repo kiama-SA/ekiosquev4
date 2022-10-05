@@ -5072,12 +5072,12 @@ button.close {
 }
 
 .bg-primary {
-  background-color: #ff5e3a !important;
+  background-color: #94c11e !important;
 }
 
 a.bg-primary:focus,
 a.bg-primary:hover {
-  background-color: #ff3407 !important;
+  background-color: #94c11e!important;
 }
 
 .bg-success {
