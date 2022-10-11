@@ -35,203 +35,255 @@
 </head>
 
 <body>
-    <!--large screen header -->
-    <header class="container-fluid" id="header-lg">
-        <div id="logo" class="d-flex align-items-center">
-            <img src="img/ekiosque-presse-numerique-cameroun-afrique.png"
-                alt="ekiosque-presse-numerique-cameroun-afrique" />
-        </div>
-        <div id="contact" class="d-flex align-items-center">
-            <div>
-                Contactez nous au <br />
-                <span>697 81 25 15 (Whatsapp)</span>
-            </div>
-        </div>
-        <div id="icones">
-            <a href="navbar.html" class="d-flex flex-column justify-content-center menu-item">
-                <div class="d-flex align-items-end justify-content-center">
-                    <iconify-icon icon="bxs:home"></iconify-icon>
-                </div>
-                <div class="d-flex align-items-end justify-content-center mt-1">
-                    <span class="menu-text">Accueil</span>
-                </div>
-            </a>
-            <a href="reseauKiosk.html" class="d-flex flex-column justify-content-center menu-item">
-                <div class="d-flex align-items-end justify-content-center">
-                    <iconify-icon icon="fa-solid:user-friends"></iconify-icon>
-                </div>
-                <div class="d-flex align-items-end justify-content-center mt-1">
-                    reseau kiosk
-                </div>
-            </a>
-            <a href="#" class="d-flex flex-column justify-content-center menu-item">
-                <div class="d-flex align-items-end justify-content-center">
-                    <iconify-icon icon="fluent:library-20-filled"></iconify-icon>
-                </div>
-                <div class="d-flex align-items-end justify-content-center mt-1">
-                    bibliothèque
-                </div>
-            </a>
-            <a href="#" class="d-flex flex-column justify-content-center menu-item">
-                <div class="d-flex align-items-end justify-content-center">
-                    <iconify-icon icon="fluent:gift-20-filled"></iconify-icon>
-                </div>
-                <div class="d-flex align-items-end justify-content-center mt-1">
-                    Nos offres
-                </div>
-            </a>
-            <a href="#" class="d-flex flex-column justify-content-center active menu-item">
-                <div class="d-flex align-items-end justify-content-center">
-                    <iconify-icon icon="ion:notifications"></iconify-icon>
-                </div>
-                <div class="d-flex align-items-end justify-content-center  mt-1">
-                    notifications
-                </div>
-            </a>
-            <a href="#" class="d-flex flex-column justify-content-center menu-item">
-                <div class="d-flex align-items-end justify-content-center">
-                    <iconify-icon icon="healthicons:ui-user-profile"></iconify-icon>
+     <!--Barre de Navigation -->
+    <div class="container-fluid bg-white">
+        <div class="container">
+            <!--large screen header -->
+            <header class="container-fluid" id="header-lg">
+                <div id="logo" class="d-flex align-items-center">
+                    <img src="img/ekiosque-presse-numerique-cameroun-afrique.png"
+                        alt="ekiosque-presse-numerique-cameroun-afrique">
                 </div>
 
-                <div class="d-flex align-items-end justify-content-center mt-1">
-                    Mon Compte
-                </div>
-            </a>
-        </div>
-        <div id="search">
-            <form class="form-group with-button">
-                <input class="form-control border-green" type="search" placeholder="Rechercher un editeur"
-                    aria-label="Search" />
-                <button class="btn btn-outline-success px-2 bg-green" type="submit">
-                    <i class="fas fa-search"></i>
-                </button>
-            </form>
-        </div>
-    </header>
+                <div id="search">
+                    <form class="search-bar w-search notification-list friend-requests">
+                        <div class="form-group with-button d-flex  justify-content-center">
 
-    <!--medium screen header -->
-    <header class="container-fluid" id="header-md">
-        <div id="contact" class="d-flex align-items-center">
-            <div>
-                Contactez nous au <br />
-                <span>697 81 25 15 (Whatsapp)</span>
-            </div>
-        </div>
-        <div id="icones">
-            <a href="navbar.html" class="d-flex flex-column justify-content-center menu-item">
-                <div class="d-flex align-items-end justify-content-center">
-                    <iconify-icon icon="bxs:home"></iconify-icon>
+                            <input class="form-control js-user-search" placeholder="Rechercher un editeur ..."
+                                type="text">
+                            <!-- <div class="d-flex align-items-center justify-content-center loop-icon" >
+                                    <i class="fas fa-search"></i>
+                                </div> -->
+                        </div>
+                    </form>
                 </div>
-                <div class="d-flex align-items-end justify-content-center mt-1">
-                    <span class="menu-text">Accueil</span>
-                </div>
-            </a>
-            <a href="reseauKiosk.html" class="d-flex flex-column justify-content-center menu-item">
-                <div class="d-flex align-items-end justify-content-center">
-                    <iconify-icon icon="fa-solid:user-friends"></iconify-icon>
-                </div>
-                <div class="d-flex align-items-end justify-content-center mt-1">
-                    reseau kiosk
-                </div>
-            </a>
-            <a href="#" class="d-flex flex-column justify-content-center menu-item">
-                <div class="d-flex align-items-end justify-content-center">
-                    <iconify-icon icon="fluent:library-20-filled"></iconify-icon>
-                </div>
-                <div class="d-flex align-items-end justify-content-center mt-1">
-                    bibliothèque
-                </div>
-            </a>
-            <a href="#" class="d-flex flex-column justify-content-center  menu-item">
-                <div class="d-flex align-items-end justify-content-center">
-                    <iconify-icon icon="fluent:gift-20-filled"></iconify-icon>
-                </div>
-                <div class="d-flex align-items-end justify-content-center mt-1">
-                    Nos offres
-                </div>
-            </a>
-            <a href="#" class="d-flex flex-column justify-content-center active menu-item">
-                <div class="d-flex align-items-end justify-content-center">
-                    <iconify-icon icon="ion:notifications"></iconify-icon>
-                </div>
-                <div class="d-flex align-items-end justify-content-center  mt-1">
-                    notifications
-                </div>
-            </a>
-            <a href="#" class="d-flex flex-column justify-content-center menu-item">
-                <div class="d-flex align-items-end justify-content-center">
-                    <iconify-icon icon="healthicons:ui-user-profile"></iconify-icon>
-                </div>
+                <!-- <form class="form-group " id="search">
+                    <button class="btn btn-outline-success px-2 bg-green" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                    <div>
+                        <input class="form-control border-green" type="search" placeholder="Rechercher un editeur"
+                            aria-label="Search">
+                    </div>
 
-                <div class="d-flex align-items-end justify-content-center mt-1">
-                    Mon Compte
-                </div>
-            </a>
-        </div>
-    </header>
+                </form> -->
 
-    <!--small screen header -->
-    <header class="container-fluid" id="header-sm">
-        <div id="icones">
-            <a href="navbar.html" class="d-flex flex-column justify-content-center menu-item">
-                <div class="d-flex align-items-end justify-content-center">
-                    <iconify-icon icon="bxs:home"></iconify-icon>
+                <div id="icones">
+                    <a href="navbar.html" class="d-flex flex-column justify-content-center  menu-item">
+                        <div class="d-flex align-items-end justify-content-center">
+                            <iconify-icon icon="bxs:home"></iconify-icon>
+                        </div>
+                        <div class="d-flex align-items-end justify-content-center mt-1">
+                            <span class="menu-text">Accueil</span>
+                        </div>
+
+                    </a>
+                    <a href="reseauKiosk.html" class="d-flex flex-column justify-content-center menu-item">
+                        <div class="d-flex align-items-end justify-content-center">
+                            <iconify-icon icon="fa-solid:user-friends"></iconify-icon>
+
+                        </div>
+                        <div class="d-flex align-items-end justify-content-center mt-1">
+                            reseau kiosk
+                        </div>
+                    </a>
+                    <a href="#" class="d-flex flex-column justify-content-center menu-item ">
+                        <div class="d-flex align-items-end justify-content-center">
+                            <iconify-icon icon="fluent:library-20-filled"></iconify-icon>
+                        </div>
+                        <div class="d-flex align-items-end justify-content-center mt-1">
+                            bibliothèque
+                        </div>
+
+                    </a>
+                    <a href="#" class="d-flex flex-column justify-content-center menu-item">
+                        <div class="d-flex align-items-end justify-content-center">
+
+                            <iconify-icon icon="fluent:gift-20-filled"></iconify-icon>
+                        </div>
+                        <div class="d-flex align-items-end justify-content-center mt-1">
+                            Nos offres
+                        </div>
+
+                    </a>
+                    <a href="notifications.html" class="d-flex flex-column justify-content-center active menu-item">
+                        <div class="d-flex align-items-end justify-content-center">
+                            <iconify-icon icon="ion:notifications"></iconify-icon>
+                        </div>
+                        <div class="d-flex align-items-end justify-content-center mt-1">
+                            notifications
+                        </div>
+
+                    </a>
+                    <a href="#" class="d-flex flex-column justify-content-center menu-item">
+                        <div class="d-flex align-items-end justify-content-center">
+                            <iconify-icon icon="healthicons:ui-user-profile"></iconify-icon>
+                        </div>
+
+                        <div class="d-flex align-items-end justify-content-center mt-1">
+                            Mon Compte
+                        </div>
+
+                    </a>
                 </div>
-                <div class="d-flex align-items-end justify-content-center mt-1">
-                    <span class="menu-text">Accueil</span>
+                <!-- <div id="contact" class="d-flex align-items-center">
+                    <div>
+                        Contactez nous au <br>
+                        <span>697 81 25 15 (Whatsapp)</span>
+                    </div>
+                </div> -->
+
+            </header>
+
+
+            <!--medium screen header -->
+            <!-- <div id="top-bar">
+                <div id="contact" class="d-flex align-items-center justify-content-center">
+                    <div>
+                        Contactez nous au
+                        <span>697 81 25 15 (Whatsapp)</span>
+                    </div>
                 </div>
-            </a>
-            <a href="reseauKiosk.html" class="d-flex flex-column justify-content-center  menu-item">
-                <div class="d-flex align-items-end justify-content-center">
-                    <iconify-icon icon="fa-solid:user-friends"></iconify-icon>
-                </div>
-                <div class="d-flex align-items-end justify-content-center mt-1">
-                    reseau kiosk
-                </div>
-            </a>
-            <a href="#" class="d-flex flex-column justify-content-center menu-item">
-                <div class="d-flex align-items-end justify-content-center">
-                    <iconify-icon icon="fluent:library-20-filled"></iconify-icon>
-                </div>
-                <div class="d-flex align-items-end justify-content-center mt-1">
-                    bibliothèque
-                </div>
-            </a>
-            <a href="#" class="d-flex flex-column justify-content-center menu-item">
-                <div class="d-flex align-items-end justify-content-center">
-                    <iconify-icon icon="fluent:gift-20-filled"></iconify-icon>
-                </div>
-                <div class="d-flex align-items-end justify-content-center mt-1">
-                    Nos offres
-                </div>
-            </a>
-            <a href="#" class="d-flex flex-column justify-content-center active menu-item">
-                <div class="d-flex align-items-end justify-content-center">
-                    <iconify-icon icon="ion:notifications"></iconify-icon>
-                </div>
-                <div class="d-flex align-items-end justify-content-center mt-1">
-                    notifications
-                </div>
-            </a>
-            <a href="#" class="d-flex flex-column justify-content-center menu-item">
-                <div class="d-flex align-items-end justify-content-center">
-                    <iconify-icon icon="healthicons:ui-user-profile"></iconify-icon>
+            </div> -->
+            <header class="container-fluid" id="header-md">
+
+                <div id="logo" class="d-flex align-items-center">
+                    <img src="img/ekiosque-presse-numerique-cameroun-afrique.png"
+                        alt="ekiosque-presse-numerique-cameroun-afrique">
                 </div>
 
-                <div class="d-flex align-items-end justify-content-center mt-1">
-                    Mon Compte
-                </div>
-            </a>
-        </div>
-    </header>
+                <div id="icones">
+                    <a href="navbar.html" class="d-flex flex-column justify-content-center menu-item">
+                        <div class="d-flex align-items-end justify-content-center">
+                            <iconify-icon icon="bxs:home"></iconify-icon>
+                        </div>
+                        <div class="d-flex align-items-end justify-content-center mt-1">
+                            <span class="menu-text">Accueil</span>
+                        </div>
 
+                    </a>
+                    <a href="reseauKiosk.html" class="d-flex flex-column justify-content-center menu-item">
+                        <div class="d-flex align-items-end justify-content-center">
+                            <iconify-icon icon="fa-solid:user-friends"></iconify-icon>
+
+                        </div>
+                        <div class="d-flex align-items-end justify-content-center mt-1">
+                            reseau kiosk
+                        </div>
+                    </a>
+                    <a href="#" class="d-flex flex-column justify-content-center menu-item ">
+                        <div class="d-flex align-items-end justify-content-center">
+                            <iconify-icon icon="fluent:library-20-filled"></iconify-icon>
+                        </div>
+                        <div class="d-flex align-items-end justify-content-center mt-1">
+                            bibliothèque
+                        </div>
+
+                    </a>
+                    <a href="#" class="d-flex flex-column justify-content-center menu-item">
+                        <div class="d-flex align-items-end justify-content-center">
+
+                            <iconify-icon icon="fluent:gift-20-filled"></iconify-icon>
+                        </div>
+                        <div class="d-flex align-items-end justify-content-center mt-1">
+                            Nos offres
+                        </div>
+
+                    </a>
+                    <a href="notifications.html" class="d-flex flex-column justify-content-center active  menu-item">
+                        <div class="d-flex align-items-end justify-content-center">
+                            <iconify-icon icon="ion:notifications"></iconify-icon>
+                        </div>
+                        <div class="d-flex align-items-end justify-content-center mt-1">
+                            notifications
+                        </div>
+
+                    </a>
+                    <a href="#" class="d-flex flex-column justify-content-center menu-item">
+                        <div class="d-flex align-items-end justify-content-center">
+                            <iconify-icon icon="healthicons:ui-user-profile"></iconify-icon>
+                        </div>
+
+                        <div class="d-flex align-items-end justify-content-center mt-1">
+                            Mon Compte
+                        </div>
+
+                    </a>
+                </div>
+            </header>
+
+            <!--small screen header -->
+            <header class="container-fluid" id="header-sm">
+                <div id="icones">
+                    <a href="navbar.html" class="d-flex flex-column justify-content-center  menu-item">
+                        <div class="d-flex align-items-end justify-content-center">
+                            <iconify-icon icon="bxs:home"></iconify-icon>
+                        </div>
+                        <div class="d-flex align-items-end justify-content-center mt-1">
+                            <span class="menu-text">Accueil</span>
+                        </div>
+
+                    </a>
+                    <a href="reseauKiosk.html" class="d-flex flex-column justify-content-center menu-item">
+                        <div class="d-flex align-items-end justify-content-center">
+                            <iconify-icon icon="fa-solid:user-friends"></iconify-icon>
+
+                        </div>
+                        <div class="d-flex align-items-end justify-content-center mt-1">
+                            reseau kiosk
+                        </div>
+                    </a>
+                    <a href="#" class="d-flex flex-column justify-content-center menu-item ">
+                        <div class="d-flex align-items-end justify-content-center">
+                            <iconify-icon icon="fluent:library-20-filled"></iconify-icon>
+                        </div>
+                        <div class="d-flex align-items-end justify-content-center mt-1">
+                            bibliothèque
+                        </div>
+
+                    </a>
+                    <a href="#" class="d-flex flex-column justify-content-center menu-item">
+                        <div class="d-flex align-items-end justify-content-center">
+
+                            <iconify-icon icon="fluent:gift-20-filled"></iconify-icon>
+                        </div>
+                        <div class="d-flex align-items-end justify-content-center mt-1">
+                            Nos offres
+                        </div>
+
+                    </a>
+                    <a href="notifications.html" class="d-flex flex-column justify-content-center active menu-item">
+                        <div class="d-flex align-items-end justify-content-center">
+                            <iconify-icon icon="ion:notifications"></iconify-icon>
+                        </div>
+                        <div class="d-flex align-items-end justify-content-center mt-1">
+                            notifications
+                        </div>
+
+                    </a>
+                    <a href="#" class="d-flex flex-column justify-content-center menu-item">
+                        <div class="d-flex align-items-end justify-content-center">
+                            <iconify-icon icon="healthicons:ui-user-profile"></iconify-icon>
+                        </div>
+
+                        <div class="d-flex align-items-end justify-content-center mt-1">
+                            Mon Compte
+                        </div>
+
+                    </a>
+                </div>
+            </header>
+        </div>
+    </div>
+
+    <!--Corps de la page -->
     <div class="container">
         <div class="row">
             <div class="col-lg-9 my-4">
                 <div class="ui-block">
                     <div class="ui-block-title">
                         <h6 class="title">Les Dernieres notifications</h6>
-                        <a href="#" class="more">Tout marquer comme lu</a>
+                        <!-- <a href="#" class="more">Tout marquer comme lu</a> -->
                     </div>
 
                     <!-- W-Friend-Pages-Added -->
@@ -243,24 +295,24 @@
                             </div>
                             <div class="notification-event">
                                 <div><a href="#" class="h6 notification-friend">Cameroun Tribune</a> a publié une
-                                    nouvelle édition du journal <a href="#" class="notification-link">Lire</a>.</div>
+                                    nouvelle édition <a href="#" class="notification-link">Lire</a>.</div>
                                 <span class="notification-date"><time class="entry-date updated"
                                         datetime="2004-07-24T18:18">il ya 30 min</time></span>
                             </div>
-                            <span class="notification-icon">
-                                <svg class="olymp-heart-icon">
-                                    <use xlink:href="svg-icons/sprites/icons.svg#olymp-heart-icon"></use>
-                                </svg>
-                            </span>
+                            <!-- <span class="notification-icon">
+                                    <svg class="olymp-heart-icon">
+                                        <use xlink:href="svg-icons/sprites/icons.svg#olymp-heart-icon"></use>
+                                    </svg>
+                                </span> -->
 
-                            <div class="more">
-                                <svg class="olymp-three-dots-icon">
-                                    <use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use>
-                                </svg>
-                                <svg class="olymp-little-delete">
-                                    <use xlink:href="svg-icons/sprites/icons.svg#olymp-little-delete"></use>
-                                </svg>
-                            </div>
+                            <!-- <div class="more">
+                                    <svg class="olymp-three-dots-icon">
+                                        <use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use>
+                                    </svg>
+                                    <svg class="olymp-little-delete">
+                                        <use xlink:href="svg-icons/sprites/icons.svg#olymp-little-delete"></use>
+                                    </svg>
+                                </div> -->
                         </li>
 
                         <li class="un-read">
@@ -268,25 +320,25 @@
                                 <img src="img/avatar63-sm.jpg" alt="author">
                             </div>
                             <div class="notification-event">
-                                <div>Le magazine <a href="#" class="h6 notification-friend">Intégration</a> edition d'octobre 2020
-                                   vient d'etre publié<a href="#" class="notification-link">Découvrir</a>.</div>
+                                <div> <a href="#" class="h6 notification-friend">Intégration</a> a publié une
+                                    nouvelle édition <a href="#" class="notification-link"> Lire</a>.</div>
                                 <span class="notification-date"><time class="entry-date updated"
                                         datetime="2004-07-24T18:18">il ya 2 h</time></span>
                             </div>
-                            <span class="notification-icon">
-                                <svg class="olymp-heart-icon">
-                                    <use xlink:href="svg-icons/sprites/icons.svg#olymp-heart-icon"></use>
-                                </svg>
-                            </span>
-
-                            <div class="more">
-                                <svg class="olymp-three-dots-icon">
-                                    <use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use>
-                                </svg>
-                                <svg class="olymp-little-delete">
-                                    <use xlink:href="svg-icons/sprites/icons.svg#olymp-little-delete"></use>
-                                </svg>
-                            </div>
+                            <!-- <span class="notification-icon">
+                                    <svg class="olymp-heart-icon">
+                                        <use xlink:href="svg-icons/sprites/icons.svg#olymp-heart-icon"></use>
+                                    </svg>
+                                </span>
+    
+                                <div class="more">
+                                    <svg class="olymp-three-dots-icon">
+                                        <use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use>
+                                    </svg>
+                                    <svg class="olymp-little-delete">
+                                        <use xlink:href="svg-icons/sprites/icons.svg#olymp-little-delete"></use>
+                                    </svg>
+                                </div> -->
                         </li>
 
                         <li>
@@ -295,24 +347,24 @@
                             </div>
                             <div class="notification-event">
                                 <div><a href="#" class="h6 notification-friend">Cameroun Tribune</a> a publié une
-                                    nouvelle édition du journal <a href="#" class="notification-link">Lire</a>.</div>
+                                    nouvelle édition <a href="#" class="notification-link">Lire</a>.</div>
                                 <span class="notification-date"><time class="entry-date updated"
                                         datetime="2004-07-24T18:18">il ya 30 min</time></span>
                             </div>
-                            <span class="notification-icon">
-                                <svg class="olymp-heart-icon">
-                                    <use xlink:href="svg-icons/sprites/icons.svg#olymp-heart-icon"></use>
-                                </svg>
-                            </span>
-
-                            <div class="more">
-                                <svg class="olymp-three-dots-icon">
-                                    <use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use>
-                                </svg>
-                                <svg class="olymp-little-delete">
-                                    <use xlink:href="svg-icons/sprites/icons.svg#olymp-little-delete"></use>
-                                </svg>
-                            </div>
+                            <!-- <span class="notification-icon">
+                                    <svg class="olymp-heart-icon">
+                                        <use xlink:href="svg-icons/sprites/icons.svg#olymp-heart-icon"></use>
+                                    </svg>
+                                </span>
+    
+                                <div class="more">
+                                    <svg class="olymp-three-dots-icon">
+                                        <use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use>
+                                    </svg>
+                                    <svg class="olymp-little-delete">
+                                        <use xlink:href="svg-icons/sprites/icons.svg#olymp-little-delete"></use>
+                                    </svg>
+                                </div> -->
                         </li>
 
                         <li class="un-read">
@@ -320,52 +372,52 @@
                                 <img src="img/avatar66-sm.jpg" alt="author">
                             </div>
                             <div class="notification-event">
-                                <div>Le magazine <a href="#" class="h6 notification-friend">Intégration</a> edition d'octobre 2020
-                                   vient d'etre publié<a href="#" class="notification-link">Découvrir</a>.</div>
+                                <div><a href="#" class="h6 notification-friend">Intégration</a> a publié une nouvelle
+                                    edition <a href="#" class="notification-link">Lire</a>.</div>
                                 <span class="notification-date"><time class="entry-date updated"
                                         datetime="2004-07-24T18:18">il ya 2 h</time></span>
                             </div>
-                            <span class="notification-icon">
-                                <svg class="olymp-heart-icon">
-                                    <use xlink:href="svg-icons/sprites/icons.svg#olymp-heart-icon"></use>
-                                </svg>
-                            </span>
-
-                            <div class="more">
-                                <svg class="olymp-three-dots-icon">
-                                    <use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use>
-                                </svg>
-                                <svg class="olymp-little-delete">
-                                    <use xlink:href="svg-icons/sprites/icons.svg#olymp-little-delete"></use>
-                                </svg>
-                            </div>
+                            <!-- <span class="notification-icon">
+                                    <svg class="olymp-heart-icon">
+                                        <use xlink:href="svg-icons/sprites/icons.svg#olymp-heart-icon"></use>
+                                    </svg>
+                                </span>
+    
+                                <div class="more">
+                                    <svg class="olymp-three-dots-icon">
+                                        <use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use>
+                                    </svg>
+                                    <svg class="olymp-little-delete">
+                                        <use xlink:href="svg-icons/sprites/icons.svg#olymp-little-delete"></use>
+                                    </svg>
+                                </div> -->
                         </li>
                         <li class="un-read">
                             <div class="author-thumb">
                                 <img src="img/avatar66-sm.jpg" alt="author">
                             </div>
                             <div class="notification-event">
-                                <div>Le magazine <a href="#" class="h6 notification-friend">Intégration</a> edition d'octobre 2020
-                                   vient d'etre publié<a href="#" class="notification-link">Découvrir</a>.</div>
+                                <div><a href="#" class="h6 notification-friend">Intégration</a> a publié une nouvelle
+                                    edition <a href="#" class="notification-link">Lire</a>.</div>
                                 <span class="notification-date"><time class="entry-date updated"
                                         datetime="2004-07-24T18:18">il ya 2 h</time></span>
                             </div>
-                            <span class="notification-icon">
-                                <svg class="olymp-heart-icon">
-                                    <use xlink:href="svg-icons/sprites/icons.svg#olymp-heart-icon"></use>
-                                </svg>
-                            </span>
-
-                            <div class="more">
-                                <svg class="olymp-three-dots-icon">
-                                    <use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use>
-                                </svg>
-                                <svg class="olymp-little-delete">
-                                    <use xlink:href="svg-icons/sprites/icons.svg#olymp-little-delete"></use>
-                                </svg>
-                            </div>
+                            <!-- <span class="notification-icon">
+                                    <svg class="olymp-heart-icon">
+                                        <use xlink:href="svg-icons/sprites/icons.svg#olymp-heart-icon"></use>
+                                    </svg>
+                                </span>
+    
+                                <div class="more">
+                                    <svg class="olymp-three-dots-icon">
+                                        <use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use>
+                                    </svg>
+                                    <svg class="olymp-little-delete">
+                                        <use xlink:href="svg-icons/sprites/icons.svg#olymp-little-delete"></use>
+                                    </svg>
+                                </div> -->
                         </li>
-                        <li> <a href="#" class="view-all bg-primary">View All Notifications</a></li>
+                        <!-- <li> <a href="#" class="view-all bg-primary">View All Notifications</a></li> -->
 
                     </ul>
                     <!-- .. end W-Friend-Pages-Added -->
@@ -375,10 +427,10 @@
             <div class="col-lg-3 my-4">
                 <div class="ui-block">
                     <div class="ui-block-title">
-                        <h6 class="title">Mes pages favori</h6>
-                        <a href="#" class="more"><svg class="olymp-three-dots-icon">
-                                <use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use>
-                            </svg></a>
+                        <h6 class="title">Mes pages préférées</h6>
+                        <!-- <a href="#" class="more"><svg class="olymp-three-dots-icon">
+                                    <use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use>
+                                </svg></a> -->
                     </div>
                     <div class="ui-block-content">
                         <!-- W-Faved-Page -->
@@ -467,13 +519,13 @@
                     <!-- W-Create-Fav-Page -->
 
                     <div class="widget w-create-fav-page">
-                        <div class="icons-block">
-                            <iconify-icon icon="fluent:gift-20-filled"></iconify-icon>
-
-                            <a href="#" class="more"><svg class="olymp-three-dots-icon">
-                                    <use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use>
-                                </svg></a>
-                        </div>
+                        <!-- <div class="icons-block">
+                                <iconify-icon icon="fluent:gift-20-filled"></iconify-icon>
+    
+                                <a href="#" class="more"><svg class="olymp-three-dots-icon">
+                                        <use xlink:href="svg-icons/sprites/icons.svg#olymp-three-dots-icon"></use>
+                                    </svg></a>
+                            </div> -->
 
                         <div class="content">
                             <span>Soyez les premiers à</span>
@@ -488,10 +540,16 @@
         </div>
     </div>
 
+
+
     <!-- JS Scripts -->
     <script src="header.js"></script>
-    <script src="js/popper.min.js"></script>
+
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/selectize.js"></script>
+    <script src="js/base-init.js"></script>
     <script src="Bootstrap/dist/js/bootstrap.bundle.js"></script>
+
 </body>
 
 </html>

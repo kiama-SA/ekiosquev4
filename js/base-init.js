@@ -495,8 +495,8 @@ $(document).ready(function () {
 			labelField: 'name',
 			searchField: ['name'],
 			options: [
-				{image: 'img/avatar30-sm.jpg', name: 'Marie Claire Stevens', icon:'olymp-happy-face-icon'},
-				{image: 'img/avatar54-sm.jpg', name: 'Marie Davidson', message:'4 Friends in Common', icon:'olymp-happy-face-icon'},
+				{image: 'img/avatar30-sm.jpg', name: 'Cameroun Tribune', message:'quotidien', icon:'olymp-happy-face-icon'},
+				{image: 'img/avatar54-sm.jpg', name: 'integration', message:'magazine', icon:'olymp-happy-face-icon'},
 				{image: 'img/avatar49-sm.jpg', name: 'Marina Polson', message:'Mutual Friend: Mathilda Brinker', icon:'olymp-happy-face-icon'},
 				{image: 'img/avatar36-sm.jpg', name: 'Ann Marie Gibson', message:'New York, NY', icon:'olymp-happy-face-icon'},
 				{image: 'img/avatar22-sm.jpg', name: 'Dave Marinara', message:'8 Friends in Common', icon:'olymp-happy-face-icon'},
