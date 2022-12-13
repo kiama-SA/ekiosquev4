@@ -1,0 +1,154 @@
+#entete{
+    height: 200px;
+    width: 100%;
+    background-color: white;
+   margin-top: 80px;
+}
+
+#cover-photo{
+    height: 100px;
+    width: 100%;
+    background-color: #d9d9d9;
+    border-top-left-radius: 12px;
+    border-top-left-radius: 12px;
+    background-image: url("../img/ekiosque-presse-numerique-cameroun-afrique.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+
+#modifier-cover-photo{
+    background-color: white;
+   width: 105px;
+   height: 30px;
+   font-weight: bold;
+   text-align: center;
+   border-radius: 5px;
+   
+}
+
+#profil-photo{
+    width:110px;
+    height:110px;
+    border: 1px solid black;
+    position:relative;
+    top:-60px;
+    left:20px;
+    border-radius:100px;
+        background-image: url("../img/logo-ekiosque-mobile.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    z-index: 15;
+    padding-left: 2em;
+}
+
+#profil-photo button{
+    border: none;
+}
+
+#modifier-profil-photo{
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#info{
+    position: relative;
+    top:-115px;
+    padding: 10px;
+    /* padding-bottom: 30px; */
+}
+
+#profil-info{
+    margin-left: 130px;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.sub-title{
+    font-size: 14px;
+    position: relative;
+    top:-6px;
+    font-weight: lighter;
+}
+
+.stat-btn{
+    border: none;
+    height: 40px;
+    width: 170px;
+    border-radius: 7px;
+    font-weight: 400;
+    background-color: #d9d9d9;
+    align-self: flex-end;
+}
+
+.stat-btn button{
+    border: none;
+    background: none;
+}
+#nav{
+   
+    position: relative;
+    top: -116px;
+}
+
+#nav ul{
+    list-style: none;
+    display: flex;
+}
+#nav ul li{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+#nav .active{
+    border-bottom: 2px solid black;
+}
+
+#nav a{
+    color: black;
+    cursor: pointer;
+}
+
+@media screen and (max-width:572px) {
+    /* #about-link{
+        display: none;
+    } */
+    #archives-link{
+        display:none;
+    }
+    #stat-btn{
+        display: none;
+    }
+    #nav ul li{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    .title{
+        font-weight: bold;
+        font-size: 15px;
+    
+    }
+}

@@ -1,0 +1,56 @@
+.article{
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cover-photo{
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+}
+
+.author{
+    width: 120px;
+    height: 50px;
+    position: relative;
+    top: -30px;
+    background-color: white;
+}
+
+.description{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #C4C4C4;
+    position: relative;
+    top: -35px;
+   
+}
+
+.article-title{
+    color:#0465D8;
+    font-weight: bold;
+}
+
+.article-forewords{
+    font-size: 12px;
+    font-weight: lighter;
+    text-align: justify;
+    color: #605F5F;
+
+}
+
+.details{
+    width: 100%;
+    font-size: 10px;
+    color: #605F5F;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    top: -35px;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,275 @@
+#content{
+width: 100%;
+/* height: 500px; */
+margin-top: 35px;
+}
+@media screen and (max-width:1024px) {
+    #content{
+        flex-direction: column;
+    }
+}
+
+/* #main-content{
+ 
+} */
+
+#startPublication{
+    height: 150px;
+    padding: 20px;
+}
+
+#startPublication button{
+    border: none;
+    background-color: white;
+}
+
+.profile{
+    height: 45px;
+    width: 45px;;
+    background-color: #d9d9d9;
+    border-radius: 50px; 
+    margin-right: 20px;
+}
+
+.pubType{
+    margin-right: 40px;
+}
+
+.pubType iconify-icon{
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.article-icon iconify-icon{
+    font-size: 25px;
+}
+
+.aProposText{
+    padding: 20px;
+    background-color: white;
+    text-align: justify;
+}
+
+#aside-right{
+   padding-left: 40px;
+}
+@media screen and (max-width:767px) {
+    #aside-right{
+        padding-left: 0px;
+    }
+}
+
+#latest-posts{
+    height: 400px;
+    padding: 20px;
+}
+#pub{
+    padding: 20px;
+    height: 270px;
+    border-radius: 0;
+    border-color: black;
+    background-image: url('../img/cmrTribune.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.post-img{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    background-color: #d9d9d9;
+}
+
+/* statistiques */
+#period-block{
+    padding: 20px;
+}
+
+.period{
+    border: none;
+    border-radius: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 30px;
+    width: 140px;
+    margin-bottom: 1em;
+}
+
+.accordion{
+    padding: 20px;
+}
+
+.accordion-button{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    height: 40px;
+}
+
+.elt{
+    margin-bottom: 1em;
+}
+
+.text{
+    padding-right: 1em;
+    color:#31313185
+}
+
+.count{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.number{
+    padding-right: 15px;
+}
+
+.accordion-title{
+    font-weight: bold;
+}
+
+.element{
+    width: 150px;
+    height: 100px;
+    box-shadow: 3px 3px 30px #d9d9d9;
+    margin: 20px;
+    
+}
+
+
+
+ @media screen and (min-width:1024px) {
+    .accordion-body img{
+        width: 700px;
+    }  
+}
+
+@media screen and (min-width:767px) and (max-width:1023px) {
+    .accordion-body img{
+        width: 500px;
+    }  
+}
+
+@media screen and (max-width:768px) {
+    .accordion-body  img{
+        width: 200px;
+    }  
+} 
+
+
+/*Archives*/
+
+#filter{
+padding: 20px;
+}
+
+.choice{
+    border-radius: 50px;
+    width: 100px;
+    height: 35px;
+    margin-right: 20px;
+    border: 1px solid black;
+    background: none;
+    
+}
+
+.active-option{
+    border: none;
+    background-color: #d9d9d9;
+}
+
+.hidden{
+    display:none;
+}
+.block-btn{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.block-btn button{
+background-color: #d9d9d970;
+border: 1px solid black;
+padding: 5px;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-right: 5px;
+}
+
+
+#showNewspaper{
+    padding: 20px;
+    
+}
+
+.icons i{
+    font-size: 13px;
+}
+.icons{
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.green{
+    color: #94C11E;
+    font-weight: bold;
+    padding-right: 10px;
+}
+.name{
+    font-size: 16px;
+    font-weight: bold;
+}
+.info{
+    font-size: 12px;
+}
+.preview{
+    border: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.newspaperInfo{
+   
+    width: 70%;
+    text-align: right;
+}
+
+#article-single{
+    padding: 20px;
+    overflow: hidden;
+    
+}
+.action-btn{
+    width: 135px;
+    background-color: #94C11E;
+    color: black;
+    border: none;
+    border-radius: 40px;
+}
+
+.gray{
+    color: #d9d9d970;
+}
+
+.engagement{
+    height: 100px;
+    background-color: #BCEAA131;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.engagement button{
+   
+    background-color: #94C11E;
+    color: black;
+    border: none;
+    border-radius: 40px;
+   
+}

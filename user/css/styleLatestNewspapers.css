@@ -1,0 +1,57 @@
+
+
+.block-header{
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid #d9d9d9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.block-header span{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.block-content{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* box-sizing: border-box; */
+
+}
+
+.newspaper{
+    padding: 5px;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+.cover{
+    border: 2px solid black;
+    height: 175px;
+}
+
+.newsPaperTitle{
+    width: 120px;
+    height: 20px;
+    font-size: 14px;
+    font-weight: bold;
+
+    text-align: center;
+    overflow: hidden;
+}
+
+.date{
+    font-size: 12px;
+    position: relative;
+    top: -20px;
+}

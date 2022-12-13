@@ -1,0 +1,1155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>accueil</title>
+
+    <!-- Assets -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/fontawesome-free-6.2.1-web/css/all.min.css">
+
+    <!-- Main css files -->
+    <link rel="stylesheet" href="css/styleHeader.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/styleEntete.css">
+    <link rel="stylesheet" href="css/styleContent.css">
+    <link rel="stylesheet" href="css/styleAsideLeft.css">
+    <link rel="stylesheet" href="css/styleLatestNewspapers.css">
+    <link rel="stylesheet" href="css/styleLatestArticles.css">
+    <link rel="stylesheet" href="css/styleModals.css">
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Side-Nav -->
+    <div class="side-navbar d-flex justify-content-start flex-wrap flex-column pt-5 " id="sidebar">
+
+        <ul class="nav flex-column text-white w-100 pt-3">
+
+            <a href="index.php" class="nav-link">
+                <i class="fa-solid fa-right-to-bracket"></i>
+                <span class="mx-2">connexion/Inscription</span>
+            </a>
+            <a href="index.php" class="nav-link">
+                <i class="fa-solid fa-house"></i>
+                <span class="mx-2">Accueil</span>
+            </a>
+            <a href="reseauKiosk.php" class="nav-link">
+                <i class="fa-solid fa-book-open-reader"></i>
+                <span class="mx-2">Réseau Kiosk</span>
+            </a>
+            <a href="#" class="nav-link">
+                <i class="fa-solid fa-gift"></i>
+                <span class="mx-2">bibliothèque</span>
+            </a>
+            <a href="#" class="nav-link">
+                <i class="fa-solid fa-gift"></i>
+                <span class="mx-2">Nos offres</span>
+            </a>
+            <a href="notifications.php" class="nav-link">
+                <i class="fa-solid fa-bell"></i>
+                <span class="mx-2">notifications</span>
+            </a>
+            <a href="#" class="nav-link">
+                <i class="fa-solid fa-circle-user"></i>
+                <span class="mx-2">Mon Compte</span>
+            </a>
+        </ul>
+        <div id="contact" class="d-flex flex-column align-items-center justify-content-center">
+            <div>
+                Contactez nous au
+                <span>697 81 25 15 (Whatsapp)</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--main Container-->
+    <div class=" my-container ">
+        <!--Bloc principal contenant toute la page-->
+
+        <div id="topBar">
+            <!-- show menu icon -->
+            <div class="show-menu" id="menu-btn1">
+                <img src="img/show-apps-button_2.svg" width="32px" height="36px">
+            </div>
+
+            <!--large screen header -->
+            <div class="container-fluid bg-white">
+                <div class="container">
+                    <header class="container-fluid" id="header-lg">
+                        <a href="index.php" id="logo" class="d-flex align-items-center">
+                            <img src="img/ekiosque-presse-numerique-cameroun-afrique.png"
+                                alt="ekiosque-presse-numerique-cameroun-afrique" width="100%">
+                        </a>
+                        <div id="search">
+                            <form>
+                                <div class="d-flex">
+                                    <input type="text" name="" id="" placeholder="rechercher un editeur">
+                                    <button> <i class="fas fa-search"></i></button>
+
+                                </div>
+                            </form>
+                        </div>
+
+                        <div id="icones">
+                            <a href="index.php" class="d-flex flex-column justify-content-center  menu-item">
+                                <div class="d-flex align-items-end justify-content-center">
+                                    <i class="fa-solid fa-house"></i>
+                                </div>
+                                <div class="d-flex align-items-end justify-content-center mt-1">
+                                    <span class="menu-text">Accueil</span>
+                                </div>
+
+                            </a>
+                            <a href="#" class="d-flex flex-column justify-content-center menu-item">
+                                <div class="d-flex align-items-end justify-content-center">
+                                    <i class="fa-solid fa-users"></i>
+
+                                </div>
+                                <div class="d-flex align-items-end justify-content-center mt-1">
+                                    reseau kiosk
+                                </div>
+                            </a>
+                            <a href="#" class="d-flex flex-column justify-content-center menu-item ">
+                                <div class="d-flex align-items-end justify-content-center">
+                                    <i class="fa-solid fa-book-open-reader"></i>
+                                </div>
+                                <div class="d-flex align-items-end justify-content-center mt-1">
+                                    bibliothèque
+                                </div>
+
+                            </a>
+                            <a href="#" class="d-flex flex-column justify-content-center menu-item">
+                                <div class="d-flex align-items-end justify-content-center">
+
+                                    <i class="fa-solid fa-gift"></i>
+                                </div>
+                                <div class="d-flex align-items-end justify-content-center mt-1">
+                                    Nos offres
+                                </div>
+
+                            </a>
+                            <a href="notifications.php" class="d-flex flex-column justify-content-center menu-item">
+                                <div class="d-flex align-items-end justify-content-center">
+                                    <i class="fa-solid fa-bell"></i>
+                                </div>
+                                <div class="d-flex align-items-end justify-content-center mt-1">
+                                    notifications
+                                </div>
+
+                            </a>
+                            <a href="#" class="d-flex flex-column justify-content-center menu-item">
+                                <div class="d-flex align-items-end justify-content-center">
+                                    <i class="fa-solid fa-circle-user"></i>
+                                </div>
+
+                                <div class="d-flex align-items-end justify-content-center mt-1">
+                                    Mon Compte
+                                </div>
+
+                            </a>
+                        </div>
+                    </header>
+                </div>
+
+                <!--medium screen header -->
+                <div class="container">
+
+                    <header class="container-fluid" id="header-md">
+
+                        <a href="index.php" class="d-flex align-items-center">
+                            <img src="img/ekiosque-presse-numerique-cameroun-afrique.png" width="120px"
+                                alt="ekiosque-presse-numerique-cameroun-afrique">
+                        </a>
+
+
+                        <div id="search">
+                            <form>
+                                <div class="d-flex">
+                                    <input type="text" name="" id="" placeholder="rechercher un editeur">
+                                    <button> <i class="fas fa-search"></i></button>
+
+                                </div>
+                            </form>
+
+                        </div>
+
+                        <div id="icones">
+                            <a href="#" class="d-flex flex-column justify-content-center menu-item ">
+                                <div class="d-flex align-items-end justify-content-center">
+                                    <i class="fa-solid fa-book-open-reader"></i>
+                                </div>
+                                <div class="d-flex align-items-end justify-content-center mt-1">
+                                    bibliothèque
+                                </div>
+
+                            </a>
+                            <a href="#" class="d-flex flex-column justify-content-center menu-item ">
+                                <div class="d-flex align-items-end justify-content-center">
+                                    <i class="fa-solid fa-gift"></i>
+                                </div>
+                                <div class="d-flex align-items-end justify-content-center mt-1">
+                                    Nos offres
+                                </div>
+
+                            </a>
+
+                        </div>
+
+
+                    </header>
+                </div>
+
+                <!--small screen header -->
+                <div class="container-fluid">
+
+                    <header class="container-fluid" id="header-sm">
+
+
+                        <div class="d-flex align-items-center" id="logo">
+                            <a href="index.php" class="d-flex flex-column justify-content-center  menu-item">
+                                <div class="d-flex align-items-end justify-content-center">
+                                    <img src="img/logo-ekiosque-mobile.png"
+                                        alt="ekiosque-presse-numerique-cameroun-afrique" width="42px">
+                                </div>
+                                <div class="d-flex align-items-end justify-content-center mt-1">
+                                    <span class="menu-text"><b>ekiosque</b></span>
+                                </div>
+
+                            </a>
+
+                        </div>
+
+                        <div id="search">
+                            <form>
+                                <div class="d-flex">
+                                    <input type="text" name="" id="" placeholder="rechercher un editeur">
+                                    <button> <i class="fas fa-search"></i></button>
+
+                                </div>
+                            </form>
+
+                        </div>
+
+                    </header>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="container" id="lg-container">
+
+            <div id="entete" class="ui-block">
+                <div id="cover-photo">
+
+                    <button id="modifier-cover-photo" class="ui-block" data-bs-toggle="modal"
+                        data-bs-target="#updateCoverPhotoModal">
+                        <i class="bi bi-camera-fill"></i> Modifier
+                    </button>
+
+                </div>
+                <div id="profil-photo">
+                    <button id="modifier-profil-photo" data-bs-toggle="modal" data-bs-target="#updateProfilPhotoModal">
+                        <i class="bi bi-camera-fill"></i>
+                    </button>
+
+                </div>
+                <div id="info" class="d-flex justify-content-between">
+                    <div id="profil-info">
+                        <span class="title">Cameroun Tribune</span><br> <span class="sub-title">editeur</span>
+                    </div>
+                    <div id="stat-btn" class="stat-btn">
+                        <a href="statistiques.html" class="stat-btn d-flex justify-content-center align-items-center">
+                            <button>
+                                Voir mes statistiques
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div id="nav">
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="aPropos.html">A Propos</a></li>
+                        <li><a href="archives.html">Archives</a></li>
+                        <li><a href="statistiques.html">Statistiques</a></li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div id="content" class="d-flex ">
+
+                <div id="main-content" class="col-md-9 col-lg-9">
+                    <div id="article-single" class="ui-block">
+                        <div class="article-header">
+                            <img src="img/president.jpg" width="100%" alt="">
+                        </div>
+                        <div class="article-title mt-3 mb-3">
+                            Conflit en Ukraine: Le message de paix de Yaoundé
+                        </div>
+                        <div class="d-flex mt-2 mb-2 ">
+                            <div class="preview">
+                                <img src="img/cmrTribune.jpg" width="70px" alt="">
+                            </div>
+                            <div class="px-3 mt-2 mb-2">
+                                Cet article est issu du jounal Cameroun
+                                tribune du 20 mars 2022 p.5
+                                <div class="mt-2">
+                                    <button class="action-btn"> voir ce numéro</button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="mb-2">
+                            Le gouvernement appelle en outre à l’ouverture des négociations afin de mettre un terme à la
+                            guerre en cours par la voie pacifique. .....
+                            Le gouvernement appelle en outre à l’ouverture des négociations afin de mettre un terme à la
+                            guerre en cours par la voie pacifique. .....
+                            <span class="gray">
+                                Le gouvernement appelle en outre à l’ouverture des négociations afin de mettre un terme
+                                à la guerre en cours par la voie pacifique. .....
+                                Le gouvernement appelle en outre à l’ouverture des négociations afin de mettre un terme
+                                à la guerre en cours par la voie pacifique. .....
+                            </span>
+                        </div>
+
+                        <div class="engagement">
+                            <button class="px-3 py-1">Acheter pour continuer la lecture</button>
+                        </div>
+                        <div class="mt-2 mb-2 ">
+                            Ceci pourrait aussi vous interesser
+                        </div>
+                        <div class="block-content">
+                            <div class="article">
+                                <div class="cover-photo">
+                                    <img src="img/president.jpg" height="180px">
+                                </div>
+                                <div class="author">
+                                    <img src="img/Cameroon_Tribune_logo.png" width="120px">
+                                </div>
+                                <div class="description">
+                                    <div class="article-title mb-2">
+                                        Conflit en Ukraine: Le message de paix de Yaoundé
+                                    </div>
+                                    <div class="article-forewords ">
+                                        Le gouvernement appelle en outre à l’ouverture des négociations
+                                        afin de mettre un terme à la guerre
+                                        en cours par la voie pacifique. .....
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <span>02-03-2022</span>
+                                    <span>08 min de lecture</span>
+
+                                </div>
+                            </div>
+                            <div class="article">
+                                <div class="cover-photo">
+                                    <img src="img/industrialisation.jpg" height="180px">
+                                </div>
+                                <div class="author">
+                                    <img src="img/Cameroon_Tribune_logo.png" width="120px">
+                                </div>
+                                <div class="description">
+                                    <div class="article-title mb-2">
+                                        Réindustrialisation Les usines retrouvent le Nord
+                                    </div>
+                                    <div class="article-forewords ">
+                                        Robotique innovante, textiles relocalisés… Les Hauts-
+                                        de-France mettent à profit leur situation géographique....
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <span>02-03-2022</span>
+                                    <span>08 min de lecture</span>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div id="aside-right" class="col-md-3 ">
+                    <div id="latest-posts" class="ui-block">
+                        <div class="aside-title">
+                            <i></i>Les derniers articles
+                        </div>
+                        <div class="aside-block d-flex">
+                            <div class="post-img"></div>
+                            <div class="aside-text">
+                                La coupe du monde quatar 2022...
+                            </div>
+                        </div>
+                        <div class="aside-block d-flex">
+                            <div class="post-img"></div>
+                            <div class="aside-text">
+                                La coupe du monde quatar 2022...
+                            </div>
+                        </div>
+                        <div class="aside-block d-flex">
+                            <div class="post-img"></div>
+                            <div class="aside-text">
+                                La coupe du monde quatar 2022...
+                            </div>
+                        </div>
+                        <div class="aside-block d-flex">
+                            <div class="post-img"></div>
+                            <div class="aside-text">
+                                La coupe du monde quatar 2022...
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="pub" class="ui-block">
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container" id="md-container">
+
+            <div id="entete" class="ui-block">
+                <div id="cover-photo">
+                    <button id="modifier-cover-photo" class="ui-block" data-bs-toggle="modal"
+                        data-bs-target="#updateCoverPhotoModal">
+                        <i class="bi bi-camera-fill"></i> Modifier
+                    </button>
+                </div>
+                <div id="profil-photo">
+                    <button id="modifier-profil-photo" data-bs-toggle="modal" data-bs-target="#updateProfilPhotoModal">
+                        <i class="bi bi-camera-fill"></i>
+                    </button>
+                </div>
+                <div id="info" class="d-flex justify-content-between">
+                    <div id="profil-info">
+                        <span class="title">Cameroun Tribune</span><br> <span class="sub-title">editeur</span>
+                    </div>
+                    <div id="stat-btn" class="stat-btn">
+                        <a href="statistiques.html" class="stat-btn d-flex justify-content-center align-items-center">
+                            <button>
+                                Voir mes statistiques
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div id="nav">
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="aPropos.html">A Propos</a></li>
+                        <li><a href="archives.html">Archives</a></li>
+                        <li><a href="statistiques.html">Statistiques</a></li>
+                    </ul>
+
+                </div>
+            </div>
+
+            <div id="content" class="d-flex ">
+
+                <div id="main-content" class="col-12">
+                    <div id="article-single" class="ui-block">
+                        <div class="article-header">
+                            <div>
+                                <img src="img/president.jpg" width="100%" alt="">
+                            </div>
+                            <div class="article-title mt-3 mb-3">
+                                Conflit en Ukraine: Le message de paix de Yaoundé
+                            </div>
+                            <div class="d-flex mt-2 mb-2 ">
+                                <div class="preview">
+                                    <img src="img/cmrTribune.jpg" width="70px" alt="">
+                                </div>
+                                <div class="px-3 mt-2 mb-2">
+                                    Cet article est issu du jounal Cameroun
+                                    tribune du 20 mars 2022 p.5
+                                    <div class="mt-2">
+                                        <button class="action-btn"> voir ce numéro</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="mb-2">
+                                Le gouvernement appelle en outre à l’ouverture des négociations afin de mettre un terme
+                                à la guerre en cours par la voie pacifique. .....
+                                Le gouvernement appelle en outre à l’ouverture des négociations afin de mettre un terme
+                                à la guerre en cours par la voie pacifique. .....
+                                <span class="gray">
+                                    Le gouvernement appelle en outre à l’ouverture des négociations afin de mettre un
+                                    terme à la guerre en cours par la voie pacifique. .....
+                                    Le gouvernement appelle en outre à l’ouverture des négociations afin de mettre un
+                                    terme à la guerre en cours par la voie pacifique. .....
+                                </span>
+                            </div>
+
+                            <div class="engagement">
+                                <button class="px-3 py-1">Acheter pour continuer la lecture</button>
+                            </div>
+                            <div class="mt-2 mb-2 ">
+                                Ceci pourrait aussi vous interesser
+                            </div>
+                            <div class="block-content">
+                                <div class="article">
+                                    <div class="cover-photo">
+                                        <img src="img/president.jpg" height="180px">
+                                    </div>
+                                    <div class="author">
+                                        <img src="img/Cameroon_Tribune_logo.png" width="120px">
+                                    </div>
+                                    <div class="description">
+                                        <div class="article-title mb-2">
+                                            Conflit en Ukraine: Le message de paix de Yaoundé
+                                        </div>
+                                        <div class="article-forewords ">
+                                            Le gouvernement appelle en outre à l’ouverture des négociations
+                                            afin de mettre un terme à la guerre
+                                            en cours par la voie pacifique. .....
+                                        </div>
+                                    </div>
+                                    <div class="details">
+                                        <span>02-03-2022</span>
+                                        <span>08 min de lecture</span>
+
+                                    </div>
+                                </div>
+                                <div class="article">
+                                    <div class="cover-photo">
+                                        <img src="img/industrialisation.jpg" height="180px">
+                                    </div>
+                                    <div class="author">
+                                        <img src="img/Cameroon_Tribune_logo.png" width="120px">
+                                    </div>
+                                    <div class="description">
+                                        <div class="article-title mb-2">
+                                            Réindustrialisation Les usines retrouvent le Nord
+                                        </div>
+                                        <div class="article-forewords ">
+                                            Robotique innovante, textiles relocalisés… Les Hauts-
+                                            de-France mettent à profit leur situation géographique....
+                                        </div>
+                                    </div>
+                                    <div class="details">
+                                        <span>02-03-2022</span>
+                                        <span>08 min de lecture</span>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="aside-left" class="col-6 ">
+                        <div id="about" class="ui-block">
+                            <div class="aside-title">
+                                <iconify-icon icon="clarity:help-info-solid"></iconify-icon> A Propos de la page
+                            </div>
+                            <div class="aside-block">
+                                <div class="aside-subtitle">Description</div>
+                                <div class="aside-text">
+                                    Le Cameroon Tribune est un quotidien généraliste camerounais
+                                    créé par le gouvernement en
+                                    1974.
+                                </div>
+                            </div>
+                            <div class="aside-block">
+                                <div class="aside-subtitle">Catégorie</div>
+                                <div class="aside-text">
+                                    Editeur
+                                </div>
+                            </div>
+                            <div class="aside-block">
+                                <div class="aside-subtitle">Téléphone</div>
+                                <div class="aside-text">
+                                    +237 66666666
+                                </div>
+                            </div>
+                            <div class="aside-block">
+                                <div class="aside-subtitle">Email</div>
+                                <div class="aside-text">
+                                    camerountribune@gmailcom
+                                </div>
+                            </div>
+                            <div class="aside-block">
+                                <button>S'abonner</button>
+                            </div>
+
+                        </div>
+
+                        <!-- <div id="stats" class="ui-block">
+                            <div class="aside-title">
+                                <iconify-icon icon="ion:stats-chart"></iconify-icon>Statistiques
+                            </div>
+                            <div class="aside-block">
+                                <div class="aside-subtitle">Montant disponible</div>
+                                <div class="aside-amount">
+                                    50 000 FCFA
+                                </div>
+                            </div>
+                            <div class="aside-block">
+                                <div class="aside-subtitle">Nombre d'abonnés</div>
+                                <div class="aside-amount">
+                                    250
+                                </div>
+                            </div>
+                            <div class="aside-block">
+                                <button>Tout voir</button>
+                            </div>
+                        </div> -->
+
+                    </div>
+                    <div id="aside-right" class="col-6 ">
+                        <div id="latest-posts" class="ui-block">
+                            <div class="aside-title">
+                                <i></i>Les derniers articles
+                            </div>
+                            <div class="aside-block d-flex">
+                                <div class="post-img"></div>
+                                <div class="aside-text">
+                                    La coupe du monde quatar 2022...
+                                </div>
+                            </div>
+                            <div class="aside-block d-flex">
+                                <div class="post-img"></div>
+                                <div class="aside-text">
+                                    La coupe du monde quatar 2022...
+                                </div>
+                            </div>
+                            <div class="aside-block d-flex">
+                                <div class="post-img"></div>
+                                <div class="aside-text">
+                                    La coupe du monde quatar 2022...
+                                </div>
+                            </div>
+                            <div class="aside-block d-flex">
+                                <div class="post-img"></div>
+                                <div class="aside-text">
+                                    La coupe du monde quatar 2022...
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- <div id="pub" class="ui-block">
+        
+                        </div> -->
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="aside-left" class="col-6 ">
+                        <!-- <div id="about" class="ui-block">
+                            <div class="aside-title">
+                                <iconify-icon icon="clarity:help-info-solid"></iconify-icon> A Propos de la page
+                            </div>
+                            <div class="aside-block">
+                                <div class="aside-subtitle">Description</div>
+                                <div class="aside-text">
+                                    Le Cameroon Tribune est un quotidien généraliste camerounais
+                                    créé par le gouvernement en
+                                    1974.
+                                </div>
+                            </div>
+                            <div class="aside-block">
+                                <div class="aside-subtitle">Catégorie</div>
+                                <div class="aside-text">
+                                    Editeur
+                                </div>
+                            </div>
+                            <div class="aside-block">
+                                <div class="aside-subtitle">Téléphone</div>
+                                <div class="aside-text">
+                                    +237 66666666
+                                </div>
+                            </div>
+                            <div class="aside-block">
+                                <div class="aside-subtitle">Email</div>
+                                <div class="aside-text">
+                                    camerountribune@gmailcom
+                                </div>
+                            </div>
+                            <div class="aside-block">
+                                <button>S'abonner</button>
+                            </div>
+        
+                        </div> -->
+
+                        <div id="stats" class="ui-block">
+                            <div class="aside-title">
+                                <iconify-icon icon="ion:stats-chart"></iconify-icon>Statistiques
+                            </div>
+                            <div class="aside-block">
+                                <div class="aside-subtitle">Montant disponible</div>
+                                <div class="aside-amount">
+                                    50 000 FCFA
+                                </div>
+                            </div>
+                            <div class="aside-block">
+                                <div class="aside-subtitle">Nombre d'abonnés</div>
+                                <div class="aside-amount">
+                                    250
+                                </div>
+                            </div>
+                            <div class="aside-block">
+                                <button>Tout voir</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div id="aside-right" class="col-6 ">
+                        <!-- <div id="latest-posts" class="ui-block">
+                            <div class="aside-title">
+                                <i></i>Les derniers articles
+                            </div>
+                            <div class="aside-block d-flex">
+                                <div class="post-img"></div>
+                                <div class="aside-text">
+                                    La coupe du monde quatar 2022...
+                                </div>
+                            </div>
+                            <div class="aside-block d-flex">
+                                <div class="post-img"></div>
+                                <div class="aside-text">
+                                    La coupe du monde quatar 2022...
+                                </div>
+                            </div>
+                            <div class="aside-block d-flex">
+                                <div class="post-img"></div>
+                                <div class="aside-text">
+                                    La coupe du monde quatar 2022...
+                                </div>
+                            </div>
+                            <div class="aside-block d-flex">
+                                <div class="post-img"></div>
+                                <div class="aside-text">
+                                    La coupe du monde quatar 2022...
+                                </div>
+                            </div>
+                        </div> -->
+
+                        <div id="pub" class="ui-block">
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container" id="sm-container">
+
+            <div id="entete" class="ui-block">
+                <div id="cover-photo">
+                    <button id="modifier-cover-photo" class="ui-block" data-bs-toggle="modal"
+                        data-bs-target="#updateCoverPhotoModal">
+                        <i class="bi bi-camera-fill"></i> Modifier
+                    </button>
+                </div>
+                <div id="profil-photo">
+                    <buton id="modifier-profil-photo" data-bs-toggle="modal" data-bs-target="#updateProfilPhotoModal">
+                        <i class="bi bi-camera-fill"></i>
+                    </buton>
+                </div>
+                <div id="info" class="d-flex justify-content-between">
+                    <div id="profil-info">
+                        <span class="title">Cameroun Tribune</span><br> <span class="sub-title">editeur</span>
+                    </div>
+                    <div id="stat-btn" class="stat-btn">
+                        <a href="statistiques.html" class="stat-btn d-flex justify-content-center align-items-center">
+                            <button>
+                                Voir mes statistiques
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div id="nav">
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="statistiques.html">Statistiques</a></li>
+                        <li><a id="about-link" href="aPropos.html">A Propos</a></li>
+                        <li><a id="archives-link" href="archives.html">Archives</a></li>
+
+                    </ul>
+
+                </div>
+            </div>
+
+            <div id="content" class="d-flex ">
+
+                <div id="main-content" class="col-12">
+                    <div id="article-single" class="ui-block">
+                        <div class="article-header">
+                            <div>
+                                <img src="img/president.jpg" width="100%" alt="">
+                            </div>
+                            <div class="article-title mt-3 mb-3">
+                                Conflit en Ukraine: Le message de paix de Yaoundé
+                            </div>
+                            <div class="d-flex mt-2 mb-2 ">
+                                <div class="preview">
+                                    <img src="img/cmrTribune.jpg" width="70px" alt="">
+                                </div>
+                                <div class="px-3 mt-2 mb-2">
+                                    Cet article est issu du jounal Cameroun
+                                    tribune du 20 mars 2022 p.5
+                                    <div class="mt-2">
+                                        <button class="action-btn"> voir ce numéro</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="mb-2">
+                                Le gouvernement appelle en outre à l’ouverture des négociations afin de mettre un terme
+                                à la guerre en cours par la voie pacifique. .....
+                                Le gouvernement appelle en outre à l’ouverture des négociations afin de mettre un terme
+                                à la guerre en cours par la voie pacifique. .....
+                                <span class="gray">
+                                    Le gouvernement appelle en outre à l’ouverture des négociations afin de mettre un
+                                    terme à la guerre en cours par la voie pacifique. .....
+                                    Le gouvernement appelle en outre à l’ouverture des négociations afin de mettre un
+                                    terme à la guerre en cours par la voie pacifique. .....
+                                </span>
+                            </div>
+
+                            <div class="engagement">
+                                <button class="px-3 py-1">Acheter pour continuer la lecture</button>
+                            </div>
+                            <div class="mt-2 mb-2 ">
+                                Ceci pourrait aussi vous interesser
+                            </div>
+                            <div class="block-content">
+                                <div class="article">
+                                    <div class="cover-photo">
+                                        <img src="img/president.jpg" height="180px">
+                                    </div>
+                                    <div class="author">
+                                        <img src="img/Cameroon_Tribune_logo.png" width="120px">
+                                    </div>
+                                    <div class="description">
+                                        <div class="article-title mb-2">
+                                            Conflit en Ukraine: Le message de paix de Yaoundé
+                                        </div>
+                                        <div class="article-forewords ">
+                                            Le gouvernement appelle en outre à l’ouverture des négociations
+                                            afin de mettre un terme à la guerre
+                                            en cours par la voie pacifique. .....
+                                        </div>
+                                    </div>
+                                    <div class="details">
+                                        <span>02-03-2022</span>
+                                        <span>08 min de lecture</span>
+
+                                    </div>
+                                </div>
+                                <div class="article">
+                                    <div class="cover-photo">
+                                        <img src="img/industrialisation.jpg" height="180px">
+                                    </div>
+                                    <div class="author">
+                                        <img src="img/Cameroon_Tribune_logo.png" width="120px">
+                                    </div>
+                                    <div class="description">
+                                        <div class="article-title mb-2">
+                                            Réindustrialisation Les usines retrouvent le Nord
+                                        </div>
+                                        <div class="article-forewords ">
+                                            Robotique innovante, textiles relocalisés… Les Hauts-
+                                            de-France mettent à profit leur situation géographique....
+                                        </div>
+                                    </div>
+                                    <div class="details">
+                                        <span>02-03-2022</span>
+                                        <span>08 min de lecture</span>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div id="aside-left" class="col-12 ">
+                    <div id="about" class="ui-block">
+                        <div class="aside-title">
+                            <iconify-icon icon="clarity:help-info-solid"></iconify-icon> A Propos de la page
+                        </div>
+                        <div class="aside-block">
+                            <div class="aside-subtitle">Description</div>
+                            <div class="aside-text">
+                                Le Cameroon Tribune est un quotidien généraliste camerounais
+                                créé par le gouvernement en
+                                1974.
+                            </div>
+                        </div>
+                        <div class="aside-block">
+                            <div class="aside-subtitle">Catégorie</div>
+                            <div class="aside-text">
+                                Editeur
+                            </div>
+                        </div>
+                        <div class="aside-block">
+                            <div class="aside-subtitle">Téléphone</div>
+                            <div class="aside-text">
+                                +237 66666666
+                            </div>
+                        </div>
+                        <div class="aside-block">
+                            <div class="aside-subtitle">Email</div>
+                            <div class="aside-text">
+                                camerountribune@gmailcom
+                            </div>
+                        </div>
+                        <div class="aside-block">
+                            <button>S'abonner</button>
+                        </div>
+
+                    </div>
+
+                    <div id="stats" class="ui-block">
+                        <div class="aside-title">
+                            <iconify-icon icon="ion:stats-chart"></iconify-icon>Statistiques
+                        </div>
+                        <div class="aside-block">
+                            <div class="aside-subtitle">Montant disponible</div>
+                            <div class="aside-amount">
+                                50 000 FCFA
+                            </div>
+                        </div>
+                        <div class="aside-block">
+                            <div class="aside-subtitle">Nombre d'abonnés</div>
+                            <div class="aside-amount">
+                                250
+                            </div>
+                        </div>
+                        <div class="aside-block">
+                            <button>Tout voir</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="aside-right" class="col-12 ">
+                    <div id="latest-posts" class="ui-block">
+                        <div class="aside-title">
+                            <i></i>Les derniers articles
+                        </div>
+                        <div class="aside-block d-flex">
+                            <div class="post-img"></div>
+                            <div class="aside-text">
+                                La coupe du monde quatar 2022...
+                            </div>
+                        </div>
+                        <div class="aside-block d-flex">
+                            <div class="post-img"></div>
+                            <div class="aside-text">
+                                La coupe du monde quatar 2022...
+                            </div>
+                        </div>
+                        <div class="aside-block d-flex">
+                            <div class="post-img"></div>
+                            <div class="aside-text">
+                                La coupe du monde quatar 2022...
+                            </div>
+                        </div>
+                        <div class="aside-block d-flex">
+                            <div class="post-img"></div>
+                            <div class="aside-text">
+                                La coupe du monde quatar 2022...
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="pub" class="ui-block">
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="updateCoverPhotoModal" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Changer la photo de couverture</h5>
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="mb-5 mt-3">
+                            <label for="">Selectionner la photo : </label>
+                            <input type="file" placeholder="selectionner la photo" />
+                        </div>
+
+                        <div class="d-flex justify-content-center mb-3">
+                            <button class="save-btn"> Enregistrer</button>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal update-profil photo-->
+        <div class="modal fade" id="updateProfilPhotoModal" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Changer la photo de Profil</h5>
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="mb-5 mt-3">
+                            <label for="">Selectionner la photo : </label>
+                            <input type="file" placeholder="selectionner la photo" />
+                        </div>
+
+                        <div class="d-flex justify-content-center mb-3">
+                            <button class="save-btn"> Enregistrer</button>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal update publish a newspaper -->
+        <div class="modal fade" id="publishNewspaperModal" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Publier un journal/magazine ou un article</h5>
+                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div>
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+                                    data-bs-target="#home" type="button" role="tab" aria-controls="home"
+                                    aria-selected="true">Journal/Magazine</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
+                                    type="button" role="tab" aria-controls="profile"
+                                    aria-selected="false">Article</button>
+                            </li>
+
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                <div class="px-4 py-4  ">
+                                    <div class="mt-2 d-flex mb-3">
+                                        <label for="">Ajouter le PDF du journal : </label> <input type="file">
+                                    </div>
+                                    <div>
+                                        <label for="description" class="mb-2">Description (facultative)</label><br />
+                                        <textarea class="desc mb-3"
+                                            placeholder="Donnez une breve description du contenu de la publication"></textarea>
+                                    </div>
+                                    <div class="d-flex justify-content-center">
+                                        <button class="publish-btn"> publier</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                <div class="px-4 py-4">
+                                    <div class="mb-5">
+                                        <label for="categorie">Catégorie de la publication: </label><select name=""
+                                            id="">
+                                            <option value="">Selectionner une catégorie</option>
+                                            <option value="">News</option>
+                                            <option value="">Politique</option>
+                                            <option value="">Economie</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <label for="title" class="mb-5">Titre de l'article :</label><input type="text"
+                                            class="px-1" placeholder="titre de l'article" name="" id="">
+                                    </div>
+                                    <div>
+                                        <label for="edition" class="mb-5">Edition du journal: </label><select name=""
+                                            id="">
+                                            <option value="">Selectionner le journal ou magazine</option>
+                                            <option value="">N° 4050 Edition du 14 / 11 / 2022</option>
+                                            <option value="">N° 4050 Edition du 14 / 11 / 2022</option>
+                                            <option value="">N° 4050 Edition du 14 / 11 / 2022</option>
+
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <label for="description" class="mb-2">Description :</label><textarea
+                                            class="desc" placeholder="contenu de l'article"></textarea>
+                                    </div>
+                                    <div class="d-flex mb-3">
+                                        <p> Ajouter :</p>
+                                        <div class="mx-4"> <i class="bi bi-camera-fill mx-2"></i>Photo</div>
+                                        <div class="mx-4"> <i class="fa fa-file-video mx-2"></i>video</div>
+                                        <div class="mx-4"> <i class="bi fa-file-audio mx-2"></i>Audio</div>
+                                    </div>
+                                    <div class="d-flex justify-content-center mb-3">
+                                        <button class="publish-btn"> publier</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="footer" class="row">
+
+            footer footer footer footer
+        </div>
+
+
+
+    </div>
+
+</body>
+<script>
+    let newspapers = document.querySelectorAll(".newspaper");
+    newspapers.forEach(element => {
+        element.addEventListener('click', function handleClick() {
+            let x = document.getElementById("showNewspaper");
+            let y = document.getElementById("showNewspaper-md");
+            let z = document.getElementById("showNewspaper-sm");
+            x.classList.remove("hidden");
+            y.classList.remove("hidden");
+            z.classList.remove("hidden");
+        })
+    });
+</script>
+<script src="js/header.js"></script>
+<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</html>

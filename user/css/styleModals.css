@@ -1,0 +1,66 @@
+.desc{
+    width: 100%;
+    background-color: #D9D9D950;
+    height: 70px;
+    border: none;
+    padding: 15px;
+}
+
+.publish-btn{
+    background-color:#D9D9D9 ;
+   border: none;
+   width: 80px;
+   height: 30px;
+   border-radius: 5px;
+  
+}
+
+.save-btn{
+    width: 100px;
+    height: 35px;
+    background-color:#D9D9D9 ;
+    border-radius: 5px;
+    border: none;
+}
+
+.modal-title{
+    font-size: 16px;
+}
+
+.modal-header{
+    height: 40px;
+    
+
+}
+
+.modal-header button{
+    border: none;
+    background-color: white;
+}
+.modal-header span{
+   font-size: 25px;
+}
+
+label{
+    padding-right: 15px;
+}
+select{
+    border: none;
+    background-color: #D9D9D970;
+    border: 1px solid white;
+    height: 35px;
+    padding: 5px;
+}
+
+select:focus{
+    border: none;
+}
+
+.modal input{
+    border: none;
+    background-color: #D9D9D950;
+    border: 1px solid white;
+    height: 35px;
+    padding: px;
+    width: 280px;
+}

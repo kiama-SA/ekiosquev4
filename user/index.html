@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>accueil</title>
+
+    <!-- Assets -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap-icons/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/fontawesome-free-6.2.1-web/css/all.min.css">
+
+    <!-- Main css files -->
+    <link rel="stylesheet" href="css/styleHeader.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/styleEntete.css">
+    <link rel="stylesheet" href="css/styleContent.css">
+    <link rel="stylesheet" href="css/styleAsideLeft.css">
+    <link rel="stylesheet" href="css/styleLatestNewspapers.css">
+    <link rel="stylesheet" href="css/styleLatestArticles.css">
+    <link rel="stylesheet" href="css/styleModals.css">
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Side-Nav -->
+    <div class="side-navbar d-flex justify-content-start flex-wrap flex-column pt-5 " id="sidebar">
+
+        <ul class="nav flex-column text-white w-100 pt-3">
+
+            <a href="index.php" class="nav-link">
+                <i class="fa-solid fa-right-to-bracket"></i>
+                <span class="mx-2">connexion/Inscription</span>
+            </a>
+            <a href="index.php" class="nav-link">
+                <i class="fa-solid fa-house"></i>
+                <span class="mx-2">Accueil</span>
+            </a>
+            <a href="reseauKiosk.php" class="nav-link">
+                <i class="fa-solid fa-book-open-reader"></i>
+                <span class="mx-2">Réseau Kiosk</span>
+            </a>
+            <a href="#" class="nav-link">
+                <i class="fa-solid fa-gift"></i>
+                <span class="mx-2">bibliothèque</span>
+            </a>
+            <a href="#" class="nav-link">
+                <i class="fa-solid fa-gift"></i>
+                <span class="mx-2">Nos offres</span>
+            </a>
+            <a href="notifications.php" class="nav-link">
+                <i class="fa-solid fa-bell"></i>
+                <span class="mx-2">notifications</span>
+            </a>
+            <a href="#" class="nav-link">
+                <i class="fa-solid fa-circle-user"></i>
+                <span class="mx-2">Mon Compte</span>
+            </a>
+        </ul>
+        <div id="contact" class="d-flex flex-column align-items-center justify-content-center">
+            <div>
+                Contactez nous au
+                <span>697 81 25 15 (Whatsapp)</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--main Container-->
+    <div class=" my-container ">
+        <!--Bloc principal contenant toute la page-->
+
+        <div id="topBar">
+            <!-- show menu icon -->
+            <div class="show-menu" id="menu-btn1">
+                <img src="img/show-apps-button_2.svg" width="32px" height="36px">
+            </div>
+
+            <!--large screen header -->
+            <div class="container-fluid bg-white">
+                <div class="container">
+                    <header class="container-fluid" id="header-lg">
+                        <a href="index.php" id="logo" class="d-flex align-items-center">
+                            <img src="img/ekiosque-presse-numerique-cameroun-afrique.png"
+                                alt="ekiosque-presse-numerique-cameroun-afrique" width="100%">
+                        </a>
+                        <div id="search">
+                            <form>
+                                <div class="d-flex">
+                                    <input type="text" name="" id="" placeholder="rechercher un editeur">
+                                    <button> <i class="fas fa-search"></i></button>
+
+                                </div>
+                            </form>
+                        </div>
+
+                        <div id="icones">
+                            <a href="index.php" class="d-flex flex-column justify-content-center  menu-item">
+                                <div class="d-flex align-items-end justify-content-center">
+                                    <i class="fa-solid fa-house"></i>
+                                </div>
+                                <div class="d-flex align-items-end justify-content-center mt-1">
+                                    <span class="menu-text">Accueil</span>
+                                </div>
+
+                            </a>
+                            <a href="#" class="d-flex flex-column justify-content-center menu-item">
+                                <div class="d-flex align-items-end justify-content-center">
+                                    <i class="fa-solid fa-users"></i>
+
+                                </div>
+                                <div class="d-flex align-items-end justify-content-center mt-1">
+                                    reseau kiosk
+                                </div>
+                            </a>
+                            <a href="#" class="d-flex flex-column justify-content-center menu-item ">
+                                <div class="d-flex align-items-end justify-content-center">
+                                    <i class="fa-solid fa-book-open-reader"></i>
+                                </div>
+                                <div class="d-flex align-items-end justify-content-center mt-1">
+                                    bibliothèque
+                                </div>
+
+                            </a>
+                            <a href="#" class="d-flex flex-column justify-content-center menu-item">
+                                <div class="d-flex align-items-end justify-content-center">
+
+                                    <i class="fa-solid fa-gift"></i>
+                                </div>
+                                <div class="d-flex align-items-end justify-content-center mt-1">
+                                    Nos offres
+                                </div>
+
+                            </a>
+                            <a href="notifications.php" class="d-flex flex-column justify-content-center menu-item">
+                                <div class="d-flex align-items-end justify-content-center">
+                                    <i class="fa-solid fa-bell"></i>
+                                </div>
+                                <div class="d-flex align-items-end justify-content-center mt-1">
+                                    notifications
+                                </div>
+
+                            </a>
+                            <a href="#" class="d-flex flex-column justify-content-center menu-item">
+                                <div class="d-flex align-items-end justify-content-center">
+                                    <i class="fa-solid fa-circle-user"></i>
+                                </div>
+
+                                <div class="d-flex align-items-end justify-content-center mt-1">
+                                    Mon Compte
+                                </div>
+
+                            </a>
+                        </div>
+                    </header>
+                </div>
+
+                <!--medium screen header -->
+                <div class="container">
+
+                    <header class="container-fluid" id="header-md">
+
+                        <a href="index.php" class="d-flex align-items-center">
+                            <img src="img/ekiosque-presse-numerique-cameroun-afrique.png" width="120px"
+                                alt="ekiosque-presse-numerique-cameroun-afrique">
+                        </a>
+
+
+                        <div id="search">
+                            <form>
+                                <div class="d-flex">
+                                    <input type="text" name="" id="" placeholder="rechercher un editeur">
+                                    <button> <i class="fas fa-search"></i></button>
+
+                                </div>
+                            </form>
+
+                        </div>
+
+                        <div id="icones">
+                            <a href="#" class="d-flex flex-column justify-content-center menu-item ">
+                                <div class="d-flex align-items-end justify-content-center">
+                                    <i class="fa-solid fa-book-open-reader"></i>
+                                </div>
+                                <div class="d-flex align-items-end justify-content-center mt-1">
+                                    bibliothèque
+                                </div>
+
+                            </a>
+                            <a href="#" class="d-flex flex-column justify-content-center menu-item ">
+                                <div class="d-flex align-items-end justify-content-center">
+                                    <i class="fa-solid fa-gift"></i>
+                                </div>
+                                <div class="d-flex align-items-end justify-content-center mt-1">
+                                    Nos offres
+                                </div>
+
+                            </a>
+
+                        </div>
+
+
+                    </header>
+                </div>
+
+                <!--small screen header -->
+                <div class="container-fluid">
+
+                    <header class="container-fluid" id="header-sm">
+
+
+                        <div class="d-flex align-items-center" id="logo">
+                            <a href="index.php" class="d-flex flex-column justify-content-center  menu-item">
+                                <div class="d-flex align-items-end justify-content-center">
+                                    <img src="img/logo-ekiosque-mobile.png"
+                                        alt="ekiosque-presse-numerique-cameroun-afrique" width="42px">
+                                </div>
+                                <div class="d-flex align-items-end justify-content-center mt-1">
+                                    <span class="menu-text"><b>ekiosque</b></span>
+                                </div>
+
+                            </a>
+
+                        </div>
+
+                        <div id="search">
+                            <form>
+                                <div class="d-flex">
+                                    <input type="text" name="" id="" placeholder="rechercher un editeur">
+                                    <button> <i class="fas fa-search"></i></button>
+
+                                </div>
+                            </form>
+
+                        </div>
+
+                    </header>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="container" id="lg-container">
+
+            <div id="entete" class="ui-block">
+                <div id="cover-photo">
+
+                    
+
+                </div>
+                <div id="profil-photo">
+                    
+
+                </div>
+                <div id="info" class="d-flex justify-content-between">
+                    <div id="profil-info">
+                        <span class="title">Cameroun Tribune</span><br> <span class="sub-title">editeur</span>
+                    </div>
+                    <div id="stat-btn" class="stat-btn">
+                        <a href="#" class="stat-btn d-flex justify-content-center align-items-center">
+                            <button>
+                                S'abonner
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div id="nav">
+                    <ul>
+                        <li class="active"><a href="index.html">Accueil</a></li>
+                        <li><a href="aPropos.html">A Propos</a></li>
+                        <li><a href="archives.html">Archives</a></li>
+                        
+                    </ul>
+
+                </div>
+            </div>
+
+            <div id="content" class="d-flex ">
+                <div id="aside-left" class="col-md-3 ">
+                    <div id="about" class="ui-block">
+                        <div class="aside-title">
+                            <iconify-icon icon="clarity:help-info-solid"></iconify-icon> A Propos de la page
+                        </div>
+                        <div class="aside-block">
+                            <div class="aside-subtitle">Description</div>
+                            <div class="aside-text">
+                                Le Cameroon Tribune est un quotidien généraliste camerounais
+                                créé par le gouvernement en
+                                1974.
+                            </div>
+                        </div>
+                        <div class="aside-block">
+                            <div class="aside-subtitle">Catégorie</div>
+                            <div class="aside-text">
+                                Editeur
+                            </div>
+                        </div>
+                        <div class="aside-block">
+                            <div class="aside-subtitle">Téléphone</div>
+                            <div class="aside-text">
+                                +237 66666666
+                            </div>
+                        </div>
+                        <div class="aside-block">
+                            <div class="aside-subtitle">Email</div>
+                            <div class="aside-text">
+                                camerountribune@gmailcom
+                            </div>
+                        </div>
+                        <div class="aside-block">
+                            <button>S'abonner</button>
+                        </div>
+
+                    </div>
+
+                   
+
+                </div>
+                <div id="main-content" class="col-md-9 col-lg-6">
+                    
+                    <div id="showNewspaper" class="ui-block ">
+                        <div class="d-flex justify-content-start align-items-center mb-3">
+                            <div class="profile d-flex justify-content-center align-items-center">
+                                <img src="img/logo-ekiosque-mobile.png" width="30px" alt="">
+                            </div>
+                            <div>
+                                <span class="title">Cameroun Tribune</span><br> <span class="sub-title">il ya 2h</span>
+                            </div>
+                        </div>
+                        <div class="preview-content d-flex justify-content-center mb-2 flex-wrap">
+                            <div class="preview">
+                                <img src="img/cmrTribune.jpg" width="150px" alt="">
+                            </div>
+                            <div class="newspaperInfo px-4">
+                                <div class="d-flex justify-content-between flex-wrap mb-4 align-items-center">
+                                    <div><span class="name">Cameroun Tribune</span></div>
+                                    <div><span class="info">19/09/2022 N° 4053 <br>Mensuel</span></div>
+                                </div>
+                                <div>
+                                    <div class="d-flex justify-content-start flex-wrap mb-3">
+                                        <div class="icons"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+                                        <span class="green"> J'achète</span> 400FCFA
+                                    </div>
+                                    <div class="d-flex justify-content-start flex-wrap mb-3">
+                                        <div class="icons"><i class="fas fa-book-open "></i></i></div>
+                                        <span class="green"> Je m'abonne</span> 112 800FCFA
+                                    </div>
+                                    <div class="d-flex justify-content-start flex-wrap mb-3">
+                                        <div class="icons"><i class="fa-solid fa-heart"></i> </div>
+                                        j'ajoute à mes favoris
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="lastest-newspapers" class="ui-block">
+                        <div class="block-header">
+                            <div><span>Les dernières éditions du journal</span></div>
+                            <div><a href="archives.html"><span>+ voir plus</span></a></div>
+                        </div>
+                        <div class="block-content">
+                            <div class="newspaper ">
+                                <div class="cover mb-1">
+                                    <img src="img/LaVoixDuPaysan.jpg" height="170px" width="120px">
+                                </div>
+                                <div>
+                                    <p class="newsPaperTitle">La voix du Paysan</p>
+                                    <span class="date">08/11/2022</span>
+                                </div>
+                            </div>
+                            <div class="newspaper ">
+                                <div class="cover mb-1">
+                                    <img src="img/cmrTribune.jpg" height="170px" width="120px">
+                                </div>
+                                <div>
+                                    <p class="newsPaperTitle">Cameroun Tribune</p>
+                                    <span class="date">08/11/2022</span>
+                                </div>
+                            </div>
+                            <div class="newspaper ">
+                                <div class="cover mb-1">
+                                    <img src="img/echos-sante.jpg" height="170px" width="120px">
+                                </div>
+                                <div>
+                                    <p class="newsPaperTitle">Echos Santé</p>
+                                    <span class="date">08/11/2022</span>
+                                </div>
+                            </div>
+                            <div class="newspaper ">
+                                <div class="cover mb-1">
+                                    <img src="img/leJour.jpg" height="170px" width="120px">
+                                </div>
+                                <div>
+                                    <p class="newsPaperTitle">Le Jour</p>
+                                    <span class="date">08/11/2022</span>
+                                </div>
+                            </div>
+                            <div class="newspaper ">
+                                <div class="cover mb-1">
+                                    <img src="img/guardian-post.jpg" height="170px" width="120px">
+                                </div>
+                                <div>
+                                    <p class="newsPaperTitle">The Guardian Post</p>
+                                    <span class="date">08/11/2022</span>
+                                </div>
+                            </div>
+                            <div class="newspaper ">
+                                <div class="cover mb-1">
+                                    <img src="img/mutations.jpg" height="170px" width="120px">
+                                </div>
+                                <div>
+                                    <p class="newsPaperTitle">Mutations</p>
+                                    <span class="date">08/11/2022</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="latest-articles" class="ui-block">
+                        <div class="block-header">
+                            <div><span>Les articles à la une</span></div>
+                            <div><a href="archives.html"><span>+ voir plus</span></a></div>
+                        </div>
+                        <div class="block-content">
+                            <div class="article">
+                                <div class="cover-photo">
+                                    <img src="img/president.jpg" height="180px">
+                                </div>
+                                <div class="author">
+                                    <img src="img/Cameroon_Tribune_logo.png" width="120px">
+                                </div>
+                                <div class="description">
+                                    <div class="article-title mb-2">
+                                        Conflit en Ukraine: Le message de paix de Yaoundé
+                                    </div>
+                                    <div class="article-forewords ">
+                                        Le gouvernement appelle en outre à l’ouverture des négociations
+                                        afin de mettre un terme à la guerre
+                                        en cours par la voie pacifique. .....
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <span>02-03-2022</span>
+                                    <span>08 min de lecture</span>
+
+                                </div>
+                            </div>
+                            <div class="article">
+                                <div class="cover-photo">
+                                    <img src="img/industrialisation.jpg" height="180px">
+                                </div>
+                                <div class="author">
+                                    <img src="img/Cameroon_Tribune_logo.png" width="120px">
+                                </div>
+                                <div class="description">
+                                    <div class="article-title mb-2">
+                                        Réindustrialisation Les usines retrouvent le Nord
+                                    </div>
+                                    <div class="article-forewords ">
+                                        Robotique innovante, textiles relocalisés… Les Hauts-
+                                        de-France mettent à profit leur situation géographique....
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <span>02-03-2022</span>
+                                    <span>08 min de lecture</span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="aside-right" class="col-md-3 ">
+                    <div id="latest-posts" class="ui-block">
+                        <div class="aside-title">
+                            <i></i>Les derniers articles
+                        </div>
+                        <div class="aside-block d-flex">
+                            <div class="post-img"></div>
+                            <div class="aside-text">
+                                La coupe du monde quatar 2022...
+                            </div>
+                        </div>
+                        <div class="aside-block d-flex">
+                            <div class="post-img"></div>
+                            <div class="aside-text">
+                                La coupe du monde quatar 2022...
+                            </div>
+                        </div>
+                        <div class="aside-block d-flex">
+                            <div class="post-img"></div>
+                            <div class="aside-text">
+                                La coupe du monde quatar 2022...
+                            </div>
+                        </div>
+                        <div class="aside-block d-flex">
+                            <div class="post-img"></div>
+                            <div class="aside-text">
+                                La coupe du monde quatar 2022...
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="pub" class="ui-block">
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container" id="md-container">
+
+            <div id="entete" class="ui-block">
+                <div id="cover-photo">
+                    
+                </div>
+                <div id="profil-photo">
+                    
+                </div>
+                <div id="info" class="d-flex justify-content-between">
+                    <div id="profil-info">
+                        <span class="title">Cameroun Tribune</span><br> <span class="sub-title">editeur</span>
+                    </div>
+                    <div id="stat-btn" class="stat-btn">
+                        <a href="#" class="stat-btn d-flex justify-content-center align-items-center">
+                            <button>
+                                S'abonner
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div id="nav">
+                    <ul>
+                        <li class="active"><a href="index.html">Accueil</a></li>
+                        <li><a href="aPropos.html">A Propos</a></li>
+                        <li><a href="archives.html">Archives</a></li>
+                        
+                    </ul>
+
+                </div>
+            </div>
+
+            <div id="content" class="d-flex ">
+
+                <div id="main-content" class="col-12">
+                   
+                    <div id="showNewspaper-md" class="ui-block">
+                        <div class="d-flex justify-content-start align-items-center mb-3">
+                            <div class="profile d-flex justify-content-center align-items-center">
+                                <img src="img/logo-ekiosque-mobile.png" width="30px" alt="">
+                            </div>
+                            <div>
+                                <span class="title">Cameroun Tribune</span><br> <span class="sub-title">il ya 2h</span>
+                            </div>
+                        </div>
+                        <div class="preview-content d-flex justify-content-center mb-2 flex-wrap">
+                            <div class="preview">
+                                <img src="img/cmrTribune.jpg" width="150px" alt="">
+                            </div>
+                            <div class="newspaperInfo px-4">
+                                <div class="d-flex justify-content-between flex-wrap mb-4 align-items-center">
+                                    <div><span class="name">Cameroun Tribune</span></div>
+                                    <div><span class="info">19/09/2022 N° 4053 <br>Mensuel</span></div>
+                                </div>
+                                <div>
+                                    <div class="d-flex justify-content-start flex-wrap mb-3">
+                                        <div class="icons"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+                                        <span class="green"> J'achète</span> 400FCFA
+                                    </div>
+                                    <div class="d-flex justify-content-start flex-wrap mb-3">
+                                        <div class="icons"><i class="fas fa-book-open "></i></i></div>
+                                        <span class="green"> Je m'abonne</span> 112 800FCFA
+                                    </div>
+                                    <div class="d-flex justify-content-start flex-wrap mb-3">
+                                        <div class="icons"><i class="fa-solid fa-heart"></i> </div>
+                                        j'ajoute à mes favoris
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="lastest-newspapers" class="ui-block">
+                        <div class="block-header">
+                            <div><span>Les dernières éditions du journal</span></div>
+                            <div><a href="archives.html"><span>+ voir plus</span></a></div>
+                        </div>
+                        <div class="block-content">
+                            <div class="newspaper ">
+                                <div class="cover mb-1">
+                                    <img src="img/LaVoixDuPaysan.jpg" height="170px" width="120px">
+                                </div>
+                                <div>
+                                    <p class="newsPaperTitle">La voix du Paysan</p>
+                                    <span class="date">08/11/2022</span>
+                                </div>
+                            </div>
+                            <div class="newspaper ">
+                                <div class="cover mb-1">
+                                    <img src="img/cmrTribune.jpg" height="170px" width="120px">
+                                </div>
+                                <div>
+                                    <p class="newsPaperTitle">Cameroun Tribune</p>
+                                    <span class="date">08/11/2022</span>
+                                </div>
+                            </div>
+                            <div class="newspaper ">
+                                <div class="cover mb-1">
+                                    <img src="img/echos-sante.jpg" height="170px" width="120px">
+                                </div>
+                                <div>
+                                    <p class="newsPaperTitle">Echos Santé</p>
+                                    <span class="date">08/11/2022</span>
+                                </div>
+                            </div>
+                            <div class="newspaper ">
+                                <div class="cover mb-1">
+                                    <img src="img/leJour.jpg" height="170px" width="120px">
+                                </div>
+                                <div>
+                                    <p class="newsPaperTitle">Le Jour</p>
+                                    <span class="date">08/11/2022</span>
+                                </div>
+                            </div>
+                            <div class="newspaper ">
+                                <div class="cover mb-1">
+                                    <img src="img/guardian-post.jpg" height="170px" width="120px">
+                                </div>
+                                <div>
+                                    <p class="newsPaperTitle">The Guardian Post</p>
+                                    <span class="date">08/11/2022</span>
+                                </div>
+                            </div>
+                            <div class="newspaper ">
+                                <div class="cover mb-1">
+                                    <img src="img/mutations.jpg" height="170px" width="120px">
+                                </div>
+                                <div>
+                                    <p class="newsPaperTitle">Mutations</p>
+                                    <span class="date">08/11/2022</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="latest-articles" class="ui-block">
+                        <div class="block-header">
+                            <div><span>Les articles à la une</span></div>
+                            <div><a href="archives.html"><span>+ voir plus</span></a></div>
+                        </div>
+                        <div class="block-content">
+                            <div class="article">
+                                <div class="cover-photo">
+                                    <img src="img/president.jpg" height="180px">
+                                </div>
+                                <div class="author">
+                                    <img src="img/Cameroon_Tribune_logo.png" width="120px">
+                                </div>
+                                <div class="description">
+                                    <div class="article-title mb-2">
+                                        Conflit en Ukraine: Le message de paix de Yaoundé
+                                    </div>
+                                    <div class="article-forewords ">
+                                        Le gouvernement appelle en outre à l’ouverture des négociations
+                                        afin de mettre un terme à la guerre
+                                        en cours par la voie pacifique. .....
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <span>02-03-2022</span>
+                                    <span>08 min de lecture</span>
+
+                                </div>
+                            </div>
+                            <div class="article">
+                                <div class="cover-photo">
+                                    <img src="img/industrialisation.jpg" height="180px">
+                                </div>
+                                <div class="author">
+                                    <img src="img/Cameroon_Tribune_logo.png" width="120px">
+                                </div>
+                                <div class="description">
+                                    <div class="article-title mb-2">
+                                        Réindustrialisation Les usines retrouvent le Nord
+                                    </div>
+                                    <div class="article-forewords ">
+                                        Robotique innovante, textiles relocalisés… Les Hauts-
+                                        de-France mettent à profit leur situation géographique....
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <span>02-03-2022</span>
+                                    <span>08 min de lecture</span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="aside-left" class="col-6 ">
+                        <div id="about" class="ui-block">
+                            <div class="aside-title">
+                                <iconify-icon icon="clarity:help-info-solid"></iconify-icon> A Propos de la page
+                            </div>
+                            <div class="aside-block">
+                                <div class="aside-subtitle">Description</div>
+                                <div class="aside-text">
+                                    Le Cameroon Tribune est un quotidien généraliste camerounais
+                                    créé par le gouvernement en
+                                    1974.
+                                </div>
+                            </div>
+                            <div class="aside-block">
+                                <div class="aside-subtitle">Catégorie</div>
+                                <div class="aside-text">
+                                    Editeur
+                                </div>
+                            </div>
+                            <div class="aside-block">
+                                <div class="aside-subtitle">Téléphone</div>
+                                <div class="aside-text">
+                                    +237 66666666
+                                </div>
+                            </div>
+                            <div class="aside-block">
+                                <div class="aside-subtitle">Email</div>
+                                <div class="aside-text">
+                                    camerountribune@gmailcom
+                                </div>
+                            </div>
+                            <div class="aside-block">
+                                <button>S'abonner</button>
+                            </div>
+
+                        </div>
+
+                        <!-- <div id="stats" class="ui-block">
+                            <div class="aside-title">
+                                <iconify-icon icon="ion:stats-chart"></iconify-icon>Statistiques
+                            </div>
+                            <div class="aside-block">
+                                <div class="aside-subtitle">Montant disponible</div>
+                                <div class="aside-amount">
+                                    50 000 FCFA
+                                </div>
+                            </div>
+                            <div class="aside-block">
+                                <div class="aside-subtitle">Nombre d'abonnés</div>
+                                <div class="aside-amount">
+                                    250
+                                </div>
+                            </div>
+                            <div class="aside-block">
+                                <button>Tout voir</button>
+                            </div>
+                        </div> -->
+
+                    </div>
+                    <div id="aside-right" class="col-6 ">
+                        <div id="latest-posts" class="ui-block">
+                            <div class="aside-title">
+                                <i></i>Les derniers articles
+                            </div>
+                            <div class="aside-block d-flex">
+                                <div class="post-img"></div>
+                                <div class="aside-text">
+                                    La coupe du monde quatar 2022...
+                                </div>
+                            </div>
+                            <div class="aside-block d-flex">
+                                <div class="post-img"></div>
+                                <div class="aside-text">
+                                    La coupe du monde quatar 2022...
+                                </div>
+                            </div>
+                            <div class="aside-block d-flex">
+                                <div class="post-img"></div>
+                                <div class="aside-text">
+                                    La coupe du monde quatar 2022...
+                                </div>
+                            </div>
+                            <div class="aside-block d-flex">
+                                <div class="post-img"></div>
+                                <div class="aside-text">
+                                    La coupe du monde quatar 2022...
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- <div id="pub" class="ui-block">
+        
+                        </div> -->
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="aside-left" class="col-6 ">
+                        <!-- <div id="about" class="ui-block">
+                            <div class="aside-title">
+                                <iconify-icon icon="clarity:help-info-solid"></iconify-icon> A Propos de la page
+                            </div>
+                            <div class="aside-block">
+                                <div class="aside-subtitle">Description</div>
+                                <div class="aside-text">
+                                    Le Cameroon Tribune est un quotidien généraliste camerounais
+                                    créé par le gouvernement en
+                                    1974.
+                                </div>
+                            </div>
+                            <div class="aside-block">
+                                <div class="aside-subtitle">Catégorie</div>
+                                <div class="aside-text">
+                                    Editeur
+                                </div>
+                            </div>
+                            <div class="aside-block">
+                                <div class="aside-subtitle">Téléphone</div>
+                                <div class="aside-text">
+                                    +237 66666666
+                                </div>
+                            </div>
+                            <div class="aside-block">
+                                <div class="aside-subtitle">Email</div>
+                                <div class="aside-text">
+                                    camerountribune@gmailcom
+                                </div>
+                            </div>
+                            <div class="aside-block">
+                                <button>S'abonner</button>
+                            </div>
+        
+                        </div> -->
+
+                     
+
+                    </div>
+                    <div id="aside-right" class="col-6 ">
+                        <!-- <div id="latest-posts" class="ui-block">
+                            <div class="aside-title">
+                                <i></i>Les derniers articles
+                            </div>
+                            <div class="aside-block d-flex">
+                                <div class="post-img"></div>
+                                <div class="aside-text">
+                                    La coupe du monde quatar 2022...
+                                </div>
+                            </div>
+                            <div class="aside-block d-flex">
+                                <div class="post-img"></div>
+                                <div class="aside-text">
+                                    La coupe du monde quatar 2022...
+                                </div>
+                            </div>
+                            <div class="aside-block d-flex">
+                                <div class="post-img"></div>
+                                <div class="aside-text">
+                                    La coupe du monde quatar 2022...
+                                </div>
+                            </div>
+                            <div class="aside-block d-flex">
+                                <div class="post-img"></div>
+                                <div class="aside-text">
+                                    La coupe du monde quatar 2022...
+                                </div>
+                            </div>
+                        </div> -->
+
+                        <div id="pub" class="ui-block">
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container" id="sm-container">
+
+            <div id="entete" class="ui-block">
+                <div id="cover-photo">
+                    
+                </div>
+                <div id="profil-photo">
+                   
+                </div>
+                <div id="info" class="d-flex justify-content-between">
+                    <div id="profil-info">
+                        <span class="title">Cameroun Tribune</span><br> <span class="sub-title">editeur</span>
+                    </div>
+                    <div id="stat-btn" class="stat-btn">
+                        <a href="#"  class="stat-btn d-flex justify-content-center align-items-center">
+                            <button>
+                                S'abonner
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div id="nav">
+                    <ul>
+                        <li class="active"><a href="index.html">Accueil</a></li>
+                        <li><a  href="archives.html">Archives</a></li>
+                        <li><a id="about-link" href="aPropos.html">A Propos</a></li>
+                        
+                    </ul>
+
+                </div>
+            </div>
+
+            <div id="content" class="d-flex ">
+
+                <div id="main-content" class="col-12">
+                   
+                    <div id="showNewspaper-sm" class="ui-block ">
+                        <div class="d-flex justify-content-start align-items-center mb-3">
+                            <div class="profile d-flex justify-content-center align-items-center">
+                                <img src="img/logo-ekiosque-mobile.png" width="30px" alt="">
+                            </div>
+                            <div>
+                                <span class="title">Cameroun Tribune</span><br> <span class="sub-title">il ya 2h</span>
+                            </div>
+                        </div>
+                        <div class="preview-content d-flex justify-content-center mb-2 flex-wrap">
+                            <div class="preview">
+                                <img src="img/cmrTribune.jpg" width="150px" alt="">
+                            </div>
+                            <div class="newspaperInfo px-4">
+                                <div class="d-flex justify-content-between flex-wrap mb-4 align-items-center">
+                                    <div><span class="name">Cameroun Tribune</span></div>
+                                    <div><span class="info">19/09/2022 N° 4053 <br>Mensuel</span></div>
+                                </div>
+                                <div>
+                                    <div class="d-flex justify-content-start flex-wrap mb-3">
+                                        <div class="icons"><i class="fa fa-shopping-cart" aria-hidden="true"></i></div>
+                                        <span class="green"> J'achète</span> 400FCFA
+                                    </div>
+                                    <div class="d-flex justify-content-start flex-wrap mb-3">
+                                        <div class="icons"><i class="fas fa-book-open "></i></i></div>
+                                        <span class="green"> Je m'abonne</span> 112 800FCFA
+                                    </div>
+                                    <div class="d-flex justify-content-start flex-wrap mb-3">
+                                        <div class="icons"><i class="fa-solid fa-heart"></i> </div>
+                                        j'ajoute à mes favoris
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="lastest-newspapers" class="ui-block">
+                        <div class="block-header">
+                            <div><span>Les dernières éditions du journal</span></div>
+                            <div><a href="archives.html"><span>+ voir plus</span></a></div>
+                        </div>
+                        <div class="block-content">
+                            <div class="newspaper ">
+                                <div class="cover mb-1">
+                                    <img src="img/LaVoixDuPaysan.jpg" height="170px" width="120px">
+                                </div>
+                                <div>
+                                    <p class="newsPaperTitle">La voix du Paysan</p>
+                                    <span class="date">08/11/2022</span>
+                                </div>
+                            </div>
+                            <div class="newspaper ">
+                                <div class="cover mb-1">
+                                    <img src="img/cmrTribune.jpg" height="170px" width="120px">
+                                </div>
+                                <div>
+                                    <p class="newsPaperTitle">Cameroun Tribune</p>
+                                    <span class="date">08/11/2022</span>
+                                </div>
+                            </div>
+                            <div class="newspaper ">
+                                <div class="cover mb-1">
+                                    <img src="img/echos-sante.jpg" height="170px" width="120px">
+                                </div>
+                                <div>
+                                    <p class="newsPaperTitle">Echos Santé</p>
+                                    <span class="date">08/11/2022</span>
+                                </div>
+                            </div>
+                            <div class="newspaper ">
+                                <div class="cover mb-1">
+                                    <img src="img/leJour.jpg" height="170px" width="120px">
+                                </div>
+                                <div>
+                                    <p class="newsPaperTitle">Le Jour</p>
+                                    <span class="date">08/11/2022</span>
+                                </div>
+                            </div>
+                            <div class="newspaper ">
+                                <div class="cover mb-1">
+                                    <img src="img/guardian-post.jpg" height="170px" width="120px">
+                                </div>
+                                <div>
+                                    <p class="newsPaperTitle">The Guardian Post</p>
+                                    <span class="date">08/11/2022</span>
+                                </div>
+                            </div>
+                            <div class="newspaper ">
+                                <div class="cover mb-1">
+                                    <img src="img/mutations.jpg" height="170px" width="120px">
+                                </div>
+                                <div>
+                                    <p class="newsPaperTitle">Mutations</p>
+                                    <span class="date">08/11/2022</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="latest-articles" class="ui-block">
+                        <div class="block-header">
+                            <div><span>Les articles à la une</span></div>
+                            <div><a href="archives.html"><span>+ voir plus</span></a></div>
+                        </div>
+                        <div class="block-content">
+                            <div class="article">
+                                <div class="cover-photo">
+                                    <img src="img/president.jpg" height="180px">
+                                </div>
+                                <div class="author">
+                                    <img src="img/Cameroon_Tribune_logo.png" width="120px">
+                                </div>
+                                <div class="description">
+                                    <div class="article-title mb-2">
+                                        Conflit en Ukraine: Le message de paix de Yaoundé
+                                    </div>
+                                    <div class="article-forewords ">
+                                        Le gouvernement appelle en outre à l’ouverture des négociations
+                                        afin de mettre un terme à la guerre
+                                        en cours par la voie pacifique. .....
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <span>02-03-2022</span>
+                                    <span>08 min de lecture</span>
+
+                                </div>
+                            </div>
+                            <a class="article">
+                                <div class="cover-photo">
+                                    <img src="img/industrialisation.jpg" height="180px">
+                                </div>
+                                <div class="author">
+                                    <img src="img/Cameroon_Tribune_logo.png" width="120px">
+                                </div>
+                                <div class="description">
+                                    <div class="article-title mb-2">
+                                        Réindustrialisation Les usines retrouvent le Nord
+                                    </div>
+                                    <div class="article-forewords ">
+                                        Robotique innovante, textiles relocalisés… Les Hauts-
+                                        de-France mettent à profit leur situation géographique....
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <span>02-03-2022</span>
+                                    <span>08 min de lecture</span>
+
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div id="aside-left" class="col-12 ">
+                    <div id="about" class="ui-block">
+                        <div class="aside-title">
+                            <iconify-icon icon="clarity:help-info-solid"></iconify-icon> A Propos de la page
+                        </div>
+                        <div class="aside-block">
+                            <div class="aside-subtitle">Description</div>
+                            <div class="aside-text">
+                                Le Cameroon Tribune est un quotidien généraliste camerounais
+                                créé par le gouvernement en
+                                1974.
+                            </div>
+                        </div>
+                        <div class="aside-block">
+                            <div class="aside-subtitle">Catégorie</div>
+                            <div class="aside-text">
+                                Editeur
+                            </div>
+                        </div>
+                        <div class="aside-block">
+                            <div class="aside-subtitle">Téléphone</div>
+                            <div class="aside-text">
+                                +237 66666666
+                            </div>
+                        </div>
+                        <div class="aside-block">
+                            <div class="aside-subtitle">Email</div>
+                            <div class="aside-text">
+                                camerountribune@gmailcom
+                            </div>
+                        </div>
+                        <div class="aside-block">
+                            <button>S'abonner</button>
+                        </div>
+
+                    </div>
+
+                    
+
+                </div>
+                <div id="aside-right" class="col-12 ">
+                    <div id="latest-posts" class="ui-block">
+                        <div class="aside-title">
+                            <i></i>Les derniers articles
+                        </div>
+                        <div class="aside-block d-flex">
+                            <div class="post-img"></div>
+                            <div class="aside-text">
+                                La coupe du monde quatar 2022...
+                            </div>
+                        </div>
+                        <div class="aside-block d-flex">
+                            <div class="post-img"></div>
+                            <div class="aside-text">
+                                La coupe du monde quatar 2022...
+                            </div>
+                        </div>
+                        <div class="aside-block d-flex">
+                            <div class="post-img"></div>
+                            <div class="aside-text">
+                                La coupe du monde quatar 2022...
+                            </div>
+                        </div>
+                        <div class="aside-block d-flex">
+                            <div class="post-img"></div>
+                            <div class="aside-text">
+                                La coupe du monde quatar 2022...
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="pub" class="ui-block">
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+       
+
+        <div id="footer" class="row">
+
+            footer footer footer footer
+        </div>
+
+
+
+    </div>
+
+</body>
+<script>
+    let newspapers = document.querySelectorAll(".newspaper");
+    newspapers.forEach(element => {
+        element.addEventListener('click', function handleClick() {
+            let newImg = element.childNodes[1].childNodes[1].getAttribute("src");
+            let newTitle = element.childNodes[3].childNodes[1].textContent;
+            let newDate = element.childNodes[3].childNodes[3].textContent;
+            console.log(newTitle);
+            console.log(newDate);
+
+
+            let x = document.getElementById("showNewspaper").childNodes[3].childNodes[1].childNodes[1];
+            let xTitle = document.getElementById("showNewspaper").childNodes[3].childNodes[3].childNodes[1];
+            xTitle.textContent = newTitle;
+            let y = document.getElementById("showNewspaper-md").childNodes[3].childNodes[1].childNodes[1];
+            let yTitle = document.getElementById("showNewspaper-md").childNodes[3].childNodes[3].childNodes[1];
+            yTitle.textContent = newTitle;
+            let z = document.getElementById("showNewspaper-sm").childNodes[3].childNodes[1].childNodes[1];
+            let zTitle = document.getElementById("showNewspaper-sm").childNodes[3].childNodes[3].childNodes[1];
+            zTitle.textContent = newTitle;
+            console.log(xTitle);
+            console.log(yTitle);
+            console.log(zTitle);
+            x.setAttribute('src', newImg);
+            y.setAttribute('src', newImg);
+            z.setAttribute('src', newImg);
+
+        })
+    });
+
+    let articles = document.querySelectorAll(".article");
+    articles.forEach(element => {
+        element.addEventListener('click', function handle() {
+            document.location.href = "/article.html";
+        })
+    })
+</script>
+<script src="js/header.js"></script>
+<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</html>

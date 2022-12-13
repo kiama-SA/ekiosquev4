@@ -1,0 +1,55 @@
+/* @font-face{
+font-family: Typold;
+src:url(assets/typold-font/Typold_Extended_Book.otf);
+} */
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #f3f2ef;
+   font-family:calibri;
+}
+.ui-block{
+    border: 1px solid #E0DFDC;
+    border-radius: 12px;
+    background-color: white;
+    margin-bottom: 20px;
+    
+}
+
+#footer{
+    height: 200px;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+@media screen and (min-width:1024px) {
+  
+    #sm-container {
+        display: none;
+    }
+    #md-container{
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+
+    #sm-container {
+        display: none;
+    }
+    #lg-container{
+        display: none;
+    }
+}
+
+@media screen and (max-width:767px) {
+    #lg-container {
+        display: none;
+    }
+    #md-container{
+        display: none;
+    }   
+}
+
+

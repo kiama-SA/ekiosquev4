@@ -1,0 +1,50 @@
+
+#aside-left{
+    padding-right: 40px;
+}
+@media screen and (max-width:767px) {
+    #aside-left{
+        padding-right: 0px;
+    }
+}
+
+#aside-left iconify-icon{
+    margin-right: 5px;
+}
+
+#about{
+    padding:20px;
+    text-align: left;
+    /* height: 400px; */
+}
+.aside-title{
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.aside-subtitle{
+    font-weight: bold;
+    font-size: 14;
+    margin-bottom: 5px;
+}
+.aside-text{
+    font-size: 13px;
+}
+.aside-block{
+    margin-top: 15px;
+}
+.aside-amount{
+    font-size: 20px;
+    color: #808080;
+}
+.aside-block button{
+    width: 100%;
+    border: none;
+    background-color: #d9d9d9;
+    font-weight: bold;
+    height: 30px;
+    border-radius: 5px;
+}
+#stats{
+    padding:20px;
+}
