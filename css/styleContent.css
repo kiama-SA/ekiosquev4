@@ -1,7 +1,7 @@
 #content{
 width: 100%;
 /* height: 500px; */
-margin-top: 35px;
+margin-top: 10px;
 }
 @media screen and (max-width:1024px) {
     #content{
@@ -51,7 +51,7 @@ margin-top: 35px;
 }
 
 #aside-right{
-   padding-left: 40px;
+   padding-left: 10px;
 }
 @media screen and (max-width:767px) {
     #aside-right{

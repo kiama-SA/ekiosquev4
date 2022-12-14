@@ -1,7 +1,4 @@
-/* @font-face{
-font-family: Typold;
-src:url(assets/typold-font/Typold_Extended_Book.otf);
-} */
+/***general**/
 a{
     text-decoration: none;
 }
@@ -13,7 +10,7 @@ body{
     border: 1px solid #E0DFDC;
     border-radius: 12px;
     background-color: white;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     
 }
 
