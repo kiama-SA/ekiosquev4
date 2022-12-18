@@ -90,11 +90,11 @@
 
 .stat-btn{
     border: none;
-    height: 40px;
-    width: 170px;
+    height: 35px;
+    width: 120px;
     border-radius: 7px;
     font-weight: 400;
-    background-color: #94C11E;
+    background-color: #e8f0fb;
     align-self: flex-end;
 }
 

@@ -1,6 +1,6 @@
 
 #aside-left{
-    padding-right: 40px;
+    padding-right: 10px;
 }
 @media screen and (max-width:767px) {
     #aside-left{
