@@ -31,9 +31,7 @@ margin-top: 5px;
     margin-right: 20px;
 }
 
-.pubType{
-    margin-right: 40px;
-}
+
 
 .pubType iconify-icon{
     font-size: 16px;
@@ -68,17 +66,13 @@ margin-top: 5px;
     height: 270px;
     border-radius: 0;
     border-color: black;
-    background-image: url('../img/cmrTribune.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
 }
 
 .post-img{
     width: 60px;
     height: 60px;
     margin-right: 10px;
-    background-color: #d9d9d9;
+   
 }
 
 /* statistiques */
@@ -237,7 +231,7 @@ margin-right: 5px;
 
 .newspaperInfo{
    
-    width: 70%;
+    
     text-align: right;
 }
 
