@@ -6,10 +6,14 @@
     z-index: 20;
     border-bottom: 1px solid #E0DFDC;
     border-top: 1px solid #E0DFDC;
-    background-color: whitesmoke;
+    background-color: white;
     padding-right: 10px;
     
 }
+#barre-editeur a{
+    color: black;
+}
+
 .profil-picture{
     border: 1px solid black;
     width: 45px;
@@ -141,7 +145,7 @@
     list-style: none;
     display: flex;
 }
-#nav ul li{
+#nav ul li, .nav-link{
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 5px;
@@ -151,12 +155,18 @@
 
 #nav .active{
     /* border-bottom: 2px solid black; */
-    background-color: aquamarine;
+    background-color: #e8f0fb;
 }
 
 #nav a{
     color: black;
     cursor: pointer;
+}
+
+#navbarNavDropdown{
+    background-color: white;
+    z-index: 5;
+
 }
 
 @media screen and (max-width:572px) {

@@ -1,6 +1,7 @@
 /***general**/
 a{
     text-decoration: none;
+    color: black;
 }
 body{
     background-color: white;
@@ -26,12 +27,21 @@ body{
     #aside-left2{
         display: none;
     }
+    .navbar-brand{
+        display: none;
+    }
+    #more-md{
+        display: none;
+    }
    
 }
 @media screen and  (min-width:766px) and (max-width:1024px) {
     
    
     #aside-left{
+        display: none;
+    }
+    #more-lg{
         display: none;
     }
    
@@ -42,8 +52,14 @@ body{
     #aside-left{
         display: none;
     }
+
+    #more-lg{
+        display: none;
+    }
     
 }
+
+
 
 
 

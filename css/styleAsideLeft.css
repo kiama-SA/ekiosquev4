@@ -46,3 +46,7 @@
 #stats{
     padding:20px;
 }
+
+#latest-posts a{
+    color: black;
+}
