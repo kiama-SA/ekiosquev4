@@ -23,8 +23,6 @@
     <link rel="stylesheet" href="css/styleModals.css">
 
     <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
-
-   
 </head>
 
 <body>
@@ -270,8 +268,8 @@
                             <li class=" dropdown-item"><a href="index.html">Accueil</a></li>
                             <li><a class="dropdown-item" href="aPropos.html">A Propos</a></li>
                             <li><a class="dropdown-item" href="archives-journaux.html">Archives/Journaux</a></li>
-                            <li><a class="dropdown-item" href="archives-articles.html">Archives/Articles</a></li>
-                            <li><a class="dropdown-item" href="statistiques.html">Statistiques</a></li>
+                            <li><a class="dropdown-item active" href="archives-articles.html">Archives/Articles</a></li>
+                           
                         </ul>
                     </div>
                 </div>
@@ -281,9 +279,69 @@
 
         <div class="container">
 
-          
+            <div class="row">
+                <div id="entete" class="ui-block">
+                    <div id="cover-photo">
+                        <div id="cover-img" class="d-flex justify-content-center align-items-center">
+                            <img src="img/barner1.jpg" width="100%" height="100%" alt="">
+                        </div>
 
-            <div id="content" style="margin-top: 120px;">
+                       
+                    </div>
+                    <div id="profil-photo" >
+                        <div class="d-flex align-items-center justify-content-center " id="profil-img">
+                            <img src="img/Cameroon_Tribune_logo.png" alt="" width="100%" height="100%">
+
+                        </div>
+                       
+                    </div>
+                    <div id="info" class="d-flex justify-content-between">
+                        <div id="profil-info">
+                            <span class="title">Cameroun Tribune</span> <br> <span class="sub-title"> editeur</span>
+                        </div>
+                        
+                        <div id="stat-btn" class="stat-btn">
+                            <a href="#" class="stat-btn d-flex justify-content-center align-items-center">
+                                
+                                    <button class="stat-btn">
+                                    Je m'abonne
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="nav">
+                        <nav class="navbar navbar-expand-lg navbar-light ">
+                            <div class="container-fluid">
+                              <a class="navbar-brand " href="index.html">Accueil</a>
+                              <a class="navbar-brand" href="apropos.html">A propos</a>
+                              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+                              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <ul class="navbar-nav">
+                                  <li class="nav-item">
+                                    <a class="nav-link " aria-current="page" href="index.html">Accueil</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link " aria-current="page" href="aPropos.html">A Propos</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="archives-journaux.html">Archives/Journaux</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link active" href="archives-articles.html">Archives/Articles</a>
+                                  </li>
+                                  
+                                </ul>
+                              </div>
+                            </div>
+                          </nav>
+    
+                    </div>
+                </div>
+            </div>
+
+            <div id="content">
 
                 <div class="row">
                     <div class="col-lg-0">
@@ -291,94 +349,85 @@
                     </div>
                    
                     <div id="main-content" class=" col-12  col-lg-9">
-                        <div id="article-single" class="ui-block">
-                            <div class="article-header">
-                                <div>
-                                    <img src="img/president.jpg" width="100%" alt="">
-                                </div>
-                                <div class="article-title mt-3 mb-3">
-                                    Conflit en Ukraine: Le message de paix de Yaoundé
-                                </div>
-                                <div class="d-flex mt-2 mb-2 ">
-                                    <div class="preview">
-                                        <img src="img/cmrTribune.jpg" width="70px" alt="">
+                        <div id="latest-articles" class="ui-block articles">
+                            <div class="block-header">
+                                <div><span>Les articles à la une</span></div>
+                        
+                            </div>
+                            <div class="block-content">
+                                <a href="article.html" class="article">
+                                    <div class="cover-photo">
+                                        <img src="img/president.jpg" height="180px">
                                     </div>
-                                    <div class="px-3 mt-2 mb-2">
-                                        Cet article est issu du jounal Cameroun
-                                        tribune du 20 mars 2022 p.5
-                                        <div class="mt-2">
-                                            <button class="action-btn"> voir ce numéro</button>
-                                        </div>
+                                    <div class="author">
+                                        <img src="img/Cameroon_Tribune_logo.png" width="120px">
                                     </div>
-                    
-                                </div>
-                                <div class="mb-2">
-                                    Le gouvernement appelle en outre à l’ouverture des négociations afin de mettre un terme
-                                    à la guerre en cours par la voie pacifique. .....
-                                    Le gouvernement appelle en outre à l’ouverture des négociations afin de mettre un terme
-                                    à la guerre en cours par la voie pacifique. .....
-                                    <span class="gray">
-                                        Le gouvernement appelle en outre à l’ouverture des négociations afin de mettre un
-                                        terme à la guerre en cours par la voie pacifique. .....
-                                        Le gouvernement appelle en outre à l’ouverture des négociations afin de mettre un
-                                        terme à la guerre en cours par la voie pacifique. .....
-                                    </span>
-                                </div>
-                    
-                                <div class="engagement">
-                                    <button class="px-3 py-1">Acheter pour continuer la lecture</button>
-                                </div>
-                                <div class="mt-2 mb-2 ">
-                                    Ceci pourrait aussi vous interesser
-                                </div>
-                                <div class="block-content">
-                                    <div class="article">
-                                        <div class="cover-photo">
-                                            <img src="img/president.jpg" height="180px">
+                                    <div class="description">
+                                        <div class="article-title mb-2">
+                                            Conflit en Ukraine: Le message de paix de Yaoundé
                                         </div>
-                                        <div class="author">
-                                            <img src="img/Cameroon_Tribune_logo.png" width="120px">
-                                        </div>
-                                        <div class="description">
-                                            <div class="article-title mb-2">
-                                                Conflit en Ukraine: Le message de paix de Yaoundé
-                                            </div>
-                                            <div class="article-forewords ">
-                                                Le gouvernement appelle en outre à l’ouverture des négociations
-                                                afin de mettre un terme à la guerre
-                                                en cours par la voie pacifique. .....
-                                            </div>
-                                        </div>
-                                        <div class="details">
-                                            <span>02-03-2022</span>
-                                            <span>08 min de lecture</span>
-                    
+                                        <div class="article-forewords ">
+                                            Le gouvernement appelle en outre à l’ouverture des négociations
+                                            afin de mettre un terme à la guerre
+                                            en cours par la voie pacifique. .....
                                         </div>
                                     </div>
-                                    <div class="article">
-                                        <div class="cover-photo">
-                                            <img src="img/industrialisation.jpg" height="180px">
+                                    <div class="details">
+                                        <span>02-03-2022</span>
+                                        <span>08 min de lecture</span>
+                        
+                                    </div>
+                                </a>
+                                <a href="article.html" class="article">
+                                    <div class="cover-photo">
+                                        <img src="img/industrialisation.jpg" height="180px">
+                                    </div>
+                                    <div class="author">
+                                        <img src="img/Cameroon_Tribune_logo.png" width="120px">
+                                    </div>
+                                    <div class="description">
+                                        <div class="article-title mb-2">
+                                            Réindustrialisation Les usines retrouvent le Nord
                                         </div>
-                                        <div class="author">
-                                            <img src="img/Cameroon_Tribune_logo.png" width="120px">
-                                        </div>
-                                        <div class="description">
-                                            <div class="article-title mb-2">
-                                                Réindustrialisation Les usines retrouvent le Nord
-                                            </div>
-                                            <div class="article-forewords ">
-                                                Robotique innovante, textiles relocalisés… Les Hauts-
-                                                de-France mettent à profit leur situation géographique....
-                                            </div>
-                                        </div>
-                                        <div class="details">
-                                            <span>02-03-2022</span>
-                                            <span>08 min de lecture</span>
-                    
+                                        <div class="article-forewords ">
+                                            Robotique innovante, textiles relocalisés… Les Hauts-
+                                            de-France mettent à profit leur situation géographique....
                                         </div>
                                     </div>
-                                </div>
-                    
+                                    <div class="details">
+                                        <span>02-03-2022</span>
+                                        <span>08 min de lecture</span>
+                        
+                                    </div>
+                                </a>
+                                <a href="article.html" class="article">
+                                    <div class="cover-photo">
+                                        <img src="img/industrialisation.jpg" height="180px">
+                                    </div>
+                                    <div class="author">
+                                        <img src="img/Cameroon_Tribune_logo.png" width="120px">
+                                    </div>
+                                    <div class="description">
+                                        <div class="article-title mb-2">
+                                            Réindustrialisation Les usines retrouvent le Nord
+                                        </div>
+                                        <div class="article-forewords ">
+                                            Robotique innovante, textiles relocalisés… Les Hauts-
+                                            de-France mettent à profit leur situation géographique....
+                                        </div>
+                                    </div>
+                                    <div class="details">
+                                        <span>02-03-2022</span>
+                                        <span>08 min de lecture</span>
+                        
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="block-btn">
+                                <button>Début</button>
+                                <button>Précedent</button>
+                                <button>suivant</button>
+                                <button>Fin</button>
                             </div>
                         </div>
                     </div>
@@ -388,28 +437,28 @@
                             <div class="aside-title row">
                                 <i></i>Les dernieres parutions
                             </div>
-                            <a href="archives-journaux.html" class="mt-2 row journal ">
+                            <a href="journal.html" class="mt-2 row journal ">
                                 <div class="post-img col-lg-3 col-2"><img src="img/cmrTribune.jpg"
                                         height="55px" width="50px"> </div>
                                 <div class="aside-text col-9 col-lg-8">
                                     Cameroun Tribune;<br> Edition du 21/12/2022
                                 </div>
                             </a>
-                            <a href="archives-journaux.html" class="mt-2 row journal ">
+                            <a href="journal.html" class="mt-2 row journal ">
                                 <div class="post-img col-lg-3 col-2"><img src="img/cmrTribune.jpg"
                                         height="55px" width="50px"> </div>
                                 <div class="aside-text col-9 col-lg-8">
                                     Cameroun Tribune;<br> Edition du 20/12/2022
                                 </div>
                             </a>
-                            <a href="archives-journaux.html" class="mt-2 row journal ">
+                            <a href="journal.html" class="mt-2 row journal ">
                                 <div class="post-img col-lg-3 col-2"><img src="img/cmrTribune.jpg"
                                         height="55px" width="50px"> </div>
                                 <div class="aside-text col-9 col-lg-8">
                                     Cameroun Tribune;<br> Edition du 19/12/2022
                                 </div>
                             </a>
-                            <a href="archives-journaux.html" class="mt-2 row journal ">
+                            <a href="journal.html" class="mt-2 row journal ">
                                 <div class="post-img col-lg-3 col-2"><img src="img/cmrTribune.jpg"
                                         height="55px" width="50px"> </div>
                                 <div class="aside-text col-9 col-lg-8">
@@ -421,35 +470,7 @@
                             
                             
                         </div>
-
-                        <div id="latest-posts" class="ui-block">
-                            <div class="aside-title row">
-                                <i></i>Les derniers articles
-                            </div>
-                            <a href="article.html" class="mt-2 row  ">
-                                <div class="post-img col-lg-3 col-2"><img src="img/Cameroon_Tribune_logo.png"
-                                        height="55px" width="60px"> </div>
-                                <div class="aside-text col-9 col-lg-8">
-                                    La coupe du monde quatar 2022... La coupe du monde quatar 2022... La coupe
-                                </div>
-                            </a>
-                            <a href="article.html" class="mt-2 row  ">
-                                <div class="post-img col-lg-3 col-2"><img src="img/Cameroon_Tribune_logo.png"
-                                        height="55px" width="60px"> </div>
-                                <div class="aside-text col-9 col-lg-8">
-                                    La coupe du monde quatar 2022... La coupe du monde quatar 2022... La coupe
-                                </div>
-                            </a>
-                            <a href="article.html" class="mt-2 row  ">
-                                <div class="post-img col-lg-3 col-2"><img src="img/Cameroon_Tribune_logo.png"
-                                        height="55px" width="60px"> </div>
-                                <div class="aside-text col-9 col-lg-8">
-                                    La coupe du monde quatar 2022... La coupe du monde quatar 2022... La coupe
-                                </div>
-                            </a>
-
-                        </div>
-
+                        
                     </div>
 
                 </div>
@@ -458,7 +479,59 @@
         </div>
 
 
-       
+      
+       <!-- Modal -->
+       <div class="modal fade" id="updateCoverPhotoModal" tabindex="-1" role="dialog"
+       aria-labelledby="exampleModalLabel" aria-hidden="true">
+       <div class="modal-dialog" role="document">
+           <div class="modal-content">
+               <div class="modal-header">
+                   <h5 class="modal-title" id="exampleModalLabel">Changer la photo de couverture</h5>
+                   <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                       <span aria-hidden="true">&times;</span>
+                   </button>
+                  
+               </div>
+               <div class="modal-body">
+                   <div class="mb-5 mt-3">
+                       <label for="cover-img" class="mx-4"><input type = file id="cover-img" hidden accept="image/*"> Selectionner la photo : <b><i class="bi bi-camera-fill"></i> Photo</b></label>
+                   </div>
+
+                   <div class="d-flex justify-content-center mb-3">
+                       <button class="save-btn close" data-bs-dismiss="modal" aria-label="Close" > Enregistrer</button>
+
+                   </div>
+               </div>
+
+           </div>
+       </div>
+   </div>
+
+   <!-- Modal update-profil photo-->
+   <div class="modal fade" id="updateProfilPhotoModal" tabindex="-1" role="dialog"
+       aria-labelledby="exampleModalLabel" aria-hidden="true">
+       <div class="modal-dialog" role="document">
+           <div class="modal-content">
+               <div class="modal-header">
+                   <h5 class="modal-title" id="exampleModalLabel">Changer la photo de Profil</h5>
+                   <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                       <span aria-hidden="true">&times;</span>
+                   </button>
+               </div>
+               <div class="modal-body">
+                   <div class="mb-5 mt-3"> 
+                       <label for="profil" class="mx-4"><input type = file id="profil" hidden accept="image/*"> Selectionner la photo : <b><i class="bi bi-camera-fill"></i> Photo</b></label>
+                   </div>
+
+                   <div class="d-flex justify-content-center mb-3">
+                       <button class="save-btn close" data-bs-dismiss="modal" aria-label="Close"> Enregistrer</button>
+
+                   </div>
+               </div>
+
+           </div>
+       </div>
+   </div>
 
         <div id="footer" class="row">
 
@@ -470,7 +543,26 @@
     </div>
 
 </body>
+<script>
+   document.getElementById("barre-editeur").style.display = "none";
 
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("barre-editeur").style.top = "-50px";
+    document.getElementById("barre-editeur").display = "block";
+   
+    
+  } else {
+    document.getElementById("barre-editeur").style.top = "60px";
+    document.getElementById("barre-editeur").style.display = "block";
+
+    
+  }
+  prevScrollpos = currentScrollPos;
+}
+</script>
 <script src="js/header.js"></script>
 <script src="js/filter.js"></script>
 <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
