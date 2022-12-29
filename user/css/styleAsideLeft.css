@@ -30,9 +30,7 @@
 .aside-text{
     font-size: 13px;
 }
-.aside-block{
-    margin-top: 15px;
-}
+
 .aside-amount{
     font-size: 20px;
     color: #808080;
@@ -47,4 +45,8 @@
 }
 #stats{
     padding:20px;
+}
+
+#latest-posts a{
+    color: black;
 }

@@ -1,34 +1,71 @@
+#barre-editeur{
+    position: fixed;
+    top:60px;
+    height: 55px;
+    width: 100%;
+    z-index: 20;
+    border-bottom: 1px solid #E0DFDC;
+    border-top: 1px solid #E0DFDC;
+    background-color: white;
+    padding-right: 10px;
+    
+}
+#barre-editeur a{
+    color: black;
+}
+
+.profil-picture{
+    border: 1px solid black;
+    width: 45px;
+    height: 45px;
+    border-radius: 500px;
+    margin-right: 10px;
+}
+#dropdownMenuButton1{
+    border: none;
+    background-color: none;
+}
+#dropdownMenuButton1:hover{
+    border: none;
+}
+
+
+/*entete*/
 #entete{
-    height: 200px;
+    height: 300px;
     width: 100%;
     background-color: white;
    margin-top: 80px;
 }
 
 #cover-photo{
-    height: 100px;
+    height: 200px;
     width: 100%;
     background-color: #d9d9d9;
     border-top-left-radius: 12px;
     border-top-left-radius: 12px;
-    background-image: url("../img/ekiosque-presse-numerique-cameroun-afrique.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-    padding-right: 10px;
-    padding-bottom: 5px;
+    overflow: hidden;
 }
 
+#cover-img{
+   
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    width: 100%;
+    height: 100%;
+}
 #modifier-cover-photo{
-    background-color: white;
+   background-color: white;
    width: 105px;
    height: 30px;
    font-weight: bold;
    text-align: center;
    border-radius: 5px;
+   position: absolute;
+   margin-right: 10px;
    
 }
 
@@ -40,19 +77,25 @@
     top:-60px;
     left:20px;
     border-radius:100px;
-        background-image: url("../img/logo-ekiosque-mobile.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
+       
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     z-index: 15;
     padding-left: 2em;
 }
+#profil-img{
+    border-radius:100px ;
+    width: 100%;
+    height: 100%;
+   position: absolute;
+    overflow: hidden;
 
+}
 #profil-photo button{
     border: none;
+    z-index: 15;
+   
 }
 
 #modifier-profil-photo{
@@ -90,11 +133,11 @@
 
 .stat-btn{
     border: none;
-    height: 35px;
-    width: 120px;
+    height: 40px;
+    width: 170px;
     border-radius: 7px;
     font-weight: 400;
-    background-color: #e8f0fb;
+    background-color: #d9d9d9;
     align-self: flex-end;
 }
 
@@ -105,14 +148,14 @@
 #nav{
    
     position: relative;
-    top: -116px;
+    top: -140px;
 }
 
 #nav ul{
     list-style: none;
     display: flex;
 }
-#nav ul li{
+#nav ul li, .nav-link{
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 5px;
@@ -121,12 +164,19 @@
 }
 
 #nav .active{
-    border-bottom: 2px solid black;
+    /* border-bottom: 2px solid black; */
+    background-color: #e8f0fb;
 }
 
 #nav a{
     color: black;
     cursor: pointer;
+}
+
+#navbarNavDropdown{
+    background-color: white;
+    z-index: 5;
+
 }
 
 @media screen and (max-width:572px) {

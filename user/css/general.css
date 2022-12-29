@@ -1,6 +1,7 @@
 /***general**/
 a{
     text-decoration: none;
+    color: black;
 }
 body{
     background-color: white;
@@ -21,32 +22,45 @@ body{
 }
 
 @media screen and (min-width:1024px) {
-  
-    #sm-container {
+    
+   
+    #aside-left2{
         display: none;
     }
-    #md-container{
+    .navbar-brand{
         display: none;
     }
+    #more-md{
+        display: none;
+    }
+   
+}
+@media screen and  (min-width:766px) and (max-width:1024px) {
+    
+   
+    #aside-left{
+        display: none;
+    }
+    #more-lg{
+        display: none;
+    }
+   
 }
 
-@media screen and (min-width:768px) and (max-width:1023px) {
+@media screen and (max-width:1023px) {
 
-    #sm-container {
+    #aside-left{
         display: none;
     }
-    #lg-container{
+
+    #more-lg{
         display: none;
     }
+    
 }
 
-@media screen and (max-width:767px) {
-    #lg-container {
-        display: none;
-    }
-    #md-container{
-        display: none;
-    }   
-}
+
+
+
 
 

@@ -37,7 +37,8 @@
 
 .cover{
     border: 2px solid black;
-    height: 175px;
+    height: 170px;
+    width: 120px;
 }
 
 .newsPaperTitle{
